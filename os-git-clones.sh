@@ -2,800 +2,800 @@
 # clone those repos to build kolla locally
 # openstack submodules is incomplete to succeed al images build
 # use dedicated kolla build conf
-git clone https://github.com/gnocchixyz/gnocchi
-git clone https://github.com/openstack/dragonflow.git
-git clone https://github.com/openstack/python-tripleoclient.git
-git clone https://opendev.org/opendev/ansible-role-cloud-launcher.git
-git clone https://opendev.org/opendev/askbot-theme.git
-git clone https://opendev.org/opendev/germqtt.git
-git clone https://opendev.org/opendev/git-restack.git
-git clone https://opendev.org/opendev/grafyaml.git
-git clone https://opendev.org/opendev/log-classify.git
-git clone https://opendev.org/opendev/log_processor.git
-git clone https://opendev.org/opendev/lpmqtt.git
-git clone https://opendev.org/opendev/meetbot.git
-git clone https://opendev.org/opendev/mqtt_statsd.git
-git clone https://opendev.org/opendev/project-config-example.git
-git clone https://opendev.org/opendev/puppet-accessbot.git
-git clone https://opendev.org/opendev/puppet-ansible.git
-git clone https://opendev.org/opendev/puppet-apparmor.git
-git clone https://opendev.org/opendev/puppet-asterisk.git
-git clone https://opendev.org/opendev/puppet-bandersnatch.git
-git clone https://opendev.org/opendev/puppet-bup.git
-git clone https://opendev.org/opendev/puppet-cgit.git
-git clone https://opendev.org/opendev/puppet-ciwatch.git
-git clone https://opendev.org/opendev/puppet-dashboard.git
-git clone https://opendev.org/opendev/puppet-drupal.git
-git clone https://opendev.org/opendev/puppet-elastic_recheck.git
-git clone https://opendev.org/opendev/puppet-elasticsearch.git
-git clone https://opendev.org/opendev/puppet-ethercalc.git
-git clone https://opendev.org/opendev/puppet-etherpad_lite.git
-git clone https://opendev.org/opendev/puppet-exim.git
-git clone https://opendev.org/opendev/puppet-germqtt.git
-git clone https://opendev.org/opendev/puppet-gerritbot.git
-git clone https://opendev.org/opendev/puppet-github.git
-git clone https://opendev.org/opendev/puppet-grafyaml.git
-git clone https://opendev.org/opendev/puppet-haveged.git
-git clone https://opendev.org/opendev/puppet-hound.git
-git clone https://opendev.org/opendev/puppet-infracloud.git
-git clone https://opendev.org/opendev/puppet-infra-cookiecutter.git
-git clone https://opendev.org/opendev/puppet-ipsilon.git
-git clone https://opendev.org/opendev/puppet-iptables.git
-git clone https://opendev.org/opendev/puppet-jeepyb.git
-git clone https://opendev.org/opendev/puppet-jenkins.git
-git clone https://opendev.org/opendev/puppet-kerberos.git
-git clone https://opendev.org/opendev/puppet-kibana.git
-git clone https://opendev.org/opendev/puppet-logrotate.git
-git clone https://opendev.org/opendev/puppet-logstash.git
-git clone https://opendev.org/opendev/puppet-lpmqtt.git
-git clone https://opendev.org/opendev/puppet-mailman.git
-git clone https://opendev.org/opendev/puppet-meetbot.git
-git clone https://opendev.org/opendev/puppet-mosquitto.git
-git clone https://opendev.org/opendev/puppet-mqtt_statsd.git
-git clone https://opendev.org/opendev/puppet-openafs.git
-git clone https://opendev.org/opendev/puppet-openstack_health.git
-git clone https://opendev.org/opendev/puppet-os_client_config.git
-git clone https://opendev.org/opendev/puppet-packagekit.git
-git clone https://opendev.org/opendev/puppet-pgsql_backup.git
-git clone https://opendev.org/opendev/puppet-phabricator.git
-git clone https://opendev.org/opendev/puppet-pip.git
-git clone https://opendev.org/opendev/puppet-planet.git
-git clone https://opendev.org/opendev/puppet-project_config.git
-git clone https://opendev.org/opendev/puppet-puppet.git
-git clone https://opendev.org/opendev/puppet-redis.git
-git clone https://opendev.org/opendev/puppet-simpleproxy.git
-git clone https://opendev.org/opendev/puppet-snmpd.git
-git clone https://opendev.org/opendev/puppet-ssh.git
-git clone https://opendev.org/opendev/puppet-ssl_cert_check.git
-git clone https://opendev.org/opendev/puppet-statusbot.git
-git clone https://opendev.org/opendev/puppet-storyboard.git
-git clone https://opendev.org/opendev/puppet-subunit2sql.git
-git clone https://opendev.org/opendev/puppet-sudoers.git
-git clone https://opendev.org/opendev/puppet-tmpreaper.git
-git clone https://opendev.org/opendev/puppet-translation_checksite.git
-git clone https://opendev.org/opendev/puppet-ulimit.git
-git clone https://opendev.org/opendev/puppet-unattended_upgrades.git
-git clone https://opendev.org/opendev/puppet-unbound.git
-git clone https://opendev.org/opendev/puppet-user.git
-git clone https://opendev.org/opendev/puppet-vcsrepo.git
-git clone https://opendev.org/opendev/pynotedb.git
-git clone https://opendev.org/opendev/python-storyboardclient.git
-git clone https://opendev.org/opendev/statusbot.git
-git clone https://opendev.org/openstack/adjutant.git
-git clone https://opendev.org/openstack/adjutant-ui.git
-git clone https://opendev.org/openstack/almanach
-git clone https://opendev.org/openstack/ansible-config_template.git
-git clone https://opendev.org/openstack/ansible-hardening.git
-git clone https://opendev.org/openstack/ansible-role-atos-hsm.git
-git clone https://opendev.org/openstack/ansible-role-chrony.git
-git clone https://opendev.org/openstack/ansible-role-collect-logs.git
-git clone https://opendev.org/openstack/ansible-role-container-registry.git
-git clone https://opendev.org/openstack/ansible-role-openstack-operations.git
-git clone https://opendev.org/openstack/ansible-role-python_venv_build.git
-git clone https://opendev.org/openstack/ansible-role-qdrouterd.git
-git clone https://opendev.org/openstack/ansible-role-redhat-subscription.git
-git clone https://opendev.org/openstack/ansible-role-systemd_mount.git
-git clone https://opendev.org/openstack/ansible-role-systemd_networkd.git
-git clone https://opendev.org/openstack/ansible-role-systemd_service.git
-git clone https://opendev.org/openstack/ansible-role-thales-hsm.git
-git clone https://opendev.org/openstack/ansible-role-tripleo-modify-image.git
-git clone https://opendev.org/openstack/ansible-role-uwsgi.git
-git clone https://opendev.org/openstack/aodh.git
-git clone https://opendev.org/openstack/automaton.git
-git clone https://opendev.org/openstack/barbican.git
-git clone https://opendev.org/openstack/barbican-specs.git
-git clone https://opendev.org/openstack/barbican-tempest-plugin.git
-git clone https://opendev.org/openstack/barbican-ui
-git clone https://opendev.org/openstack/bashate.git
-git clone https://opendev.org/openstack/bifrost.git
-git clone https://opendev.org/openstack/blazar-dashboard.git
-git clone https://opendev.org/openstack/blazar.git
-git clone https://opendev.org/openstack/blazar-nova.git
-git clone https://opendev.org/openstack/blazar-specs.git
-git clone https://opendev.org/openstack/blazar-tempest-plugin.git
-git clone https://opendev.org/openstack/bugdaystats.git
-git clone https://opendev.org/openstack/castellan.git
-git clone https://opendev.org/openstack/ceilometer.git
-git clone https://opendev.org/openstack/ceilometermiddleware.git
-git clone https://opendev.org/openstack/charm-aodh.git
-git clone https://opendev.org/openstack/charm-barbican.git
-git clone https://opendev.org/openstack/charm-barbican-softhsm.git
-git clone https://opendev.org/openstack/charm-barbican-vault.git
-git clone https://opendev.org/openstack/charm-ceilometer-agent.git
-git clone https://opendev.org/openstack/charm-ceilometer.git
-git clone https://opendev.org/openstack/charm-ceph-fs.git
-git clone https://opendev.org/openstack/charm-ceph-mon.git
-git clone https://opendev.org/openstack/charm-ceph-osd.git
-git clone https://opendev.org/openstack/charm-ceph-proxy.git
-git clone https://opendev.org/openstack/charm-ceph-radosgw.git
-git clone https://opendev.org/openstack/charm-ceph-rbd-mirror.git
-git clone https://opendev.org/openstack/charm-cinder-backup.git
-git clone https://opendev.org/openstack/charm-cinder-backup-swift-proxy
-git clone https://opendev.org/openstack/charm-cinder-ceph.git
-git clone https://opendev.org/openstack/charm-cinder.git
-git clone https://opendev.org/openstack/charm-cinder-purestorage.git
-git clone https://opendev.org/openstack/charm-cloudkitty.git
-git clone https://opendev.org/openstack/charm-deployment-guide.git
-git clone https://opendev.org/openstack/charm-designate-bind.git
-git clone https://opendev.org/openstack/charm-designate.git
-git clone https://opendev.org/openstack/charm-glance.git
-git clone https://opendev.org/openstack/charm-glance-simplestreams-sync.git
-git clone https://opendev.org/openstack/charm-glusterfs.git
-git clone https://opendev.org/openstack/charm-gnocchi.git
-git clone https://opendev.org/openstack/charm-guide.git
-git clone https://opendev.org/openstack/charm-hacluster.git
-git clone https://opendev.org/openstack/charm-heat.git
-git clone https://opendev.org/openstack/charm-interface-barbican-secrets.git
-git clone https://opendev.org/openstack/charm-interface-bgp.git
-git clone https://opendev.org/openstack/charm-interface-bind-rndc.git
-git clone https://opendev.org/openstack/charm-interface-ceph-client.git
-git clone https://opendev.org/openstack/charm-interface-ceph-mds.git
-git clone https://opendev.org/openstack/charm-interface-ceph-rbd-mirror.git
-git clone https://opendev.org/openstack/charm-interface-cinder-backend.git
-git clone https://opendev.org/openstack/charm-interface-cinder-backup
-git clone https://opendev.org/openstack/charm-interface-dashboard-plugin.git
-git clone https://opendev.org/openstack/charm-interface-designate.git
-git clone https://opendev.org/openstack/charm-interface-gnocchi.git
-git clone https://opendev.org/openstack/charm-interface-hacluster.git
-git clone https://opendev.org/openstack/charm-interface-keystone-admin.git
-git clone https://opendev.org/openstack/charm-interface-keystone-credentials.git
-git clone https://opendev.org/openstack/charm-interface-keystone-domain-backend.git
-git clone https://opendev.org/openstack/charm-interface-keystone-fid-service-provider.git
-git clone https://opendev.org/openstack/charm-interface-keystone.git
-git clone https://opendev.org/openstack/charm-interface-keystone-notifications
-git clone https://opendev.org/openstack/charm-interface-manila-plugin.git
-git clone https://opendev.org/openstack/charm-interface-mysql-innodb-cluster
-git clone https://opendev.org/openstack/charm-interface-mysql-router
-git clone https://opendev.org/openstack/charm-interface-mysql-shared.git
-git clone https://opendev.org/openstack/charm-interface-neutron-load-balancer.git
-git clone https://opendev.org/openstack/charm-interface-neutron-plugin-api-subordinate.git
-git clone https://opendev.org/openstack/charm-interface-neutron-plugin.git
-git clone https://opendev.org/openstack/charm-interface-nova-cell.git
-git clone https://opendev.org/openstack/charm-interface-nova-compute.git
-git clone https://opendev.org/openstack/charm-interface-odl-controller-api.git
-git clone https://opendev.org/openstack/charm-interface-openstack-ha.git
-git clone https://opendev.org/openstack/charm-interface-ovsdb-manager.git
-git clone https://opendev.org/openstack/charm-interface-pacemaker-remote.git
-git clone https://opendev.org/openstack/charm-interface-placement
-git clone https://opendev.org/openstack/charm-interface-rabbitmq.git
-git clone https://opendev.org/openstack/charm-interface-service-control.git
-git clone https://opendev.org/openstack/charm-interface-websso-fid-service-provider.git
-git clone https://opendev.org/openstack/charm-ironic.git
-git clone https://opendev.org/openstack/charm-keystone.git
-git clone https://opendev.org/openstack/charm-keystone-ldap.git
-git clone https://opendev.org/openstack/charm-keystone-saml-mellon.git
-git clone https://opendev.org/openstack/charm-layer-ceph-base.git
-git clone https://opendev.org/openstack/charm-layer-ceph.git
-git clone https://opendev.org/openstack/charm-layer-openstack-api.git
-git clone https://opendev.org/openstack/charm-layer-openstack.git
-git clone https://opendev.org/openstack/charm-layer-openstack-principle.git
-git clone https://opendev.org/openstack/charm-manila-ganesha
-git clone https://opendev.org/openstack/charm-manila-generic.git
-git clone https://opendev.org/openstack/charm-manila.git
-git clone https://opendev.org/openstack/charm-manila-glusterfs.git
-git clone https://opendev.org/openstack/charm-masakari.git
-git clone https://opendev.org/openstack/charm-masakari-monitors.git
-git clone https://opendev.org/openstack/charm-mistral.git
-git clone https://opendev.org/openstack/charm-murano.git
-git clone https://opendev.org/openstack/charm-mysql-innodb-cluster
-git clone https://opendev.org/openstack/charm-mysql-router
-git clone https://opendev.org/openstack/charm-neutron-api.git
-git clone https://opendev.org/openstack/charm-neutron-api-odl.git
-git clone https://opendev.org/openstack/charm-neutron-api-plugin-ovn
-git clone https://opendev.org/openstack/charm-neutron-dynamic-routing.git
-git clone https://opendev.org/openstack/charm-neutron-gateway.git
-git clone https://opendev.org/openstack/charm-neutron-openvswitch.git
-git clone https://opendev.org/openstack/charm-nova-cell-controller.git
-git clone https://opendev.org/openstack/charm-nova-cloud-controller.git
-git clone https://opendev.org/openstack/charm-nova-compute.git
-git clone https://opendev.org/openstack/charm-nova-compute-proxy.git
-git clone https://opendev.org/openstack/charm-nova-lxd.git
-git clone https://opendev.org/openstack/charm-octavia-dashboard.git
-git clone https://opendev.org/openstack/charm-octavia-diskimage-retrofit.git
-git clone https://opendev.org/openstack/charm-octavia.git
-git clone https://opendev.org/openstack/charm-odl-controller.git
-git clone https://opendev.org/openstack/charm-openstack-dashboard.git
-git clone https://opendev.org/openstack/charm-openvswitch-odl.git
-git clone https://opendev.org/openstack/charm-pacemaker-remote.git
-git clone https://opendev.org/openstack/charm-panko.git
-git clone https://opendev.org/openstack/charm-percona-cluster.git
-git clone https://opendev.org/openstack/charm-placement
-git clone https://opendev.org/openstack/charm-rabbitmq-server.git
-git clone https://opendev.org/openstack/charms.ceph.git
-git clone https://opendev.org/openstack/charms.openstack.git
-git clone https://opendev.org/openstack/charm-specs.git
-git clone https://opendev.org/openstack/charm-swift-proxy.git
-git clone https://opendev.org/openstack/charm-swift-storage.git
-git clone https://opendev.org/openstack/charm-tempest.git
-git clone https://opendev.org/openstack/charm-trove.git
-git clone https://opendev.org/openstack/charm-vault.git
-git clone https://opendev.org/openstack/charm-watcher
-git clone https://opendev.org/openstack/charm-watcher-dashboard
-git clone https://opendev.org/openstack/cinder.git
-git clone https://opendev.org/openstack/cinderlib.git
-git clone https://opendev.org/openstack/cinder-specs.git
-git clone https://opendev.org/openstack/cinder-tempest-plugin.git
-git clone https://opendev.org/openstack/cliff.git
-git clone https://opendev.org/openstack/cloudkitty-dashboard.git
-git clone https://opendev.org/openstack/cloudkitty.git
-git clone https://opendev.org/openstack/cloudkitty-specs.git
-git clone https://opendev.org/openstack/cloudkitty-tempest-plugin.git
-git clone https://opendev.org/openstack/compute-hyperv.git
-git clone https://opendev.org/openstack/congress-dashboard.git
-git clone https://opendev.org/openstack/congress.git
-git clone https://opendev.org/openstack/congress-specs.git
-git clone https://opendev.org/openstack/congress-tempest-plugin.git
-git clone https://opendev.org/openstack/constellations.git
-git clone https://opendev.org/openstack/cookbook-openstack-application-catalog.git
-git clone https://opendev.org/openstack/cookbook-openstack-bare-metal.git
-git clone https://opendev.org/openstack/cookbook-openstack-block-storage.git
-git clone https://opendev.org/openstack/cookbook-openstack-client.git
-git clone https://opendev.org/openstack/cookbook-openstackclient.git
-git clone https://opendev.org/openstack/cookbook-openstack-common.git
-git clone https://opendev.org/openstack/cookbook-openstack-compute.git
-git clone https://opendev.org/openstack/cookbook-openstack-dashboard.git
-git clone https://opendev.org/openstack/cookbook-openstack-dns.git
-git clone https://opendev.org/openstack/cookbook-openstack-identity.git
-git clone https://opendev.org/openstack/cookbook-openstack-image.git
-git clone https://opendev.org/openstack/cookbook-openstack-integration-test.git
-git clone https://opendev.org/openstack/cookbook-openstack-network.git
-git clone https://opendev.org/openstack/cookbook-openstack-ops-database.git
-git clone https://opendev.org/openstack/cookbook-openstack-ops-messaging.git
-git clone https://opendev.org/openstack/cookbook-openstack-orchestration.git
-git clone https://opendev.org/openstack/cookbook-openstack-telemetry.git
-git clone https://opendev.org/openstack/cookiecutter.git
-git clone https://opendev.org/openstack/coverage2sql.git
-git clone https://opendev.org/openstack/cyborg.git
-git clone https://opendev.org/openstack/cyborg-specs.git
-git clone https://opendev.org/openstack/cyborg-tempest-plugin.git
-git clone https://opendev.org/openstack/debtcollector.git
-git clone https://opendev.org/openstack/designate-dashboard.git
-git clone https://opendev.org/openstack/designate.git
-git clone https://opendev.org/openstack/designate-specs.git
-git clone https://opendev.org/openstack/designate-tempest-plugin.git
-git clone https://opendev.org/openstack/devstack-gate.git
-git clone https://opendev.org/openstack/devstack.git
-git clone https://opendev.org/openstack/devstack-plugin-amqp1.git
-git clone https://opendev.org/openstack/devstack-plugin-ceph.git
-git clone https://opendev.org/openstack/devstack-plugin-container.git
-git clone https://opendev.org/openstack/devstack-plugin-cookiecutter.git
-git clone https://opendev.org/openstack/devstack-plugin-kafka.git
-git clone https://opendev.org/openstack/devstack-plugin-nfs
-git clone https://opendev.org/openstack/devstack-plugin-open-cas
-git clone https://opendev.org/openstack/devstack-plugin-pika.git
-git clone https://opendev.org/openstack/devstack-plugin-zmq.git
-git clone https://opendev.org/openstack/devstack-tools.git
-git clone https://opendev.org/openstack/devstack-vagrant.git
-git clone https://opendev.org/openstack/dib-utils.git
-git clone https://opendev.org/openstack/diskimage-builder.git
-git clone https://opendev.org/openstack/django_openstack_auth.git
-git clone https://opendev.org/openstack/ec2-api.git
-git clone https://opendev.org/openstack/ec2api-tempest-plugin.git
-git clone https://opendev.org/openstack/eslint-config-openstack.git
-git clone https://opendev.org/openstack/freezer-api.git
-git clone https://opendev.org/openstack/freezer-dr.git
-git clone https://opendev.org/openstack/freezer.git
-git clone https://opendev.org/openstack/freezer-specs.git
-git clone https://opendev.org/openstack/freezer-tempest-plugin.git
-git clone https://opendev.org/openstack/freezer-web-ui.git
-git clone https://opendev.org/openstack/futurist.git
-git clone https://opendev.org/openstack/glance.git
-git clone https://opendev.org/openstack/glance-specs.git
-git clone https://opendev.org/openstack/glance_store.git
-git clone https://opendev.org/openstack/grenade.git
-git clone https://opendev.org/openstack/hacking.git
-git clone https://opendev.org/openstack/heat-agents.git
-git clone https://opendev.org/openstack/heat-cfnclient.git
-git clone https://opendev.org/openstack/heat-cfntools.git
-git clone https://opendev.org/openstack/heat-dashboard.git
-git clone https://opendev.org/openstack/heat.git
-git clone https://opendev.org/openstack/heat-specs.git
-git clone https://opendev.org/openstack/heat-tempest-plugin.git
-git clone https://opendev.org/openstack/heat-templates.git
-git clone https://opendev.org/openstack/heat-translator.git
-git clone https://opendev.org/openstack/horizon.git
-git clone https://opendev.org/openstack/i18n.git
-git clone https://opendev.org/openstack/i18n-specs.git
-git clone https://opendev.org/openstack/infra-manual.git
-git clone https://opendev.org/openstack/instack-undercloud.git
-git clone https://opendev.org/openstack/ironic.git
-git clone https://opendev.org/openstack/ironic-inspector.git
-git clone https://opendev.org/openstack/ironic-inspector-specs.git
-git clone https://opendev.org/openstack/ironic-lib.git
-git clone https://opendev.org/openstack/ironic-prometheus-exporter.git
-git clone https://opendev.org/openstack/ironic-python-agent-builder.git
-git clone https://opendev.org/openstack/ironic-python-agent.git
-git clone https://opendev.org/openstack/ironic-specs.git
-git clone https://opendev.org/openstack/ironic-tempest-plugin.git
-git clone https://opendev.org/openstack/ironic-ui.git
-git clone https://opendev.org/openstack/js-openstack-lib.git
-git clone https://opendev.org/openstack/karbor-dashboard.git
-git clone https://opendev.org/openstack/karbor.git
-git clone https://opendev.org/openstack/karma-subunit-reporter.git
-git clone https://opendev.org/openstack/kayobe-config-dev.git
-git clone https://opendev.org/openstack/kayobe-config.git
-git clone https://opendev.org/openstack/kayobe.git
-git clone https://opendev.org/openstack/keystoneauth.git
-git clone https://opendev.org/openstack/keystone.git
-git clone https://opendev.org/openstack/keystonemiddleware.git
-git clone https://opendev.org/openstack/keystone-specs.git
-git clone https://opendev.org/openstack/keystone-tempest-plugin.git
-git clone https://opendev.org/openstack/kolla-ansible.git
-git clone https://opendev.org/openstack/kolla-cli.git
-git clone https://opendev.org/openstack/kolla.git
-git clone https://opendev.org/openstack/kuryr.git
-git clone https://opendev.org/openstack/kuryr-kubernetes.git
-git clone https://opendev.org/openstack/kuryr-libnetwork.git
-git clone https://opendev.org/openstack/kuryr-tempest-plugin.git
-git clone https://opendev.org/openstack/ldappool.git
-git clone https://opendev.org/openstack/liberasurecode.git
-git clone https://opendev.org/openstack/loci.git
-git clone https://opendev.org/openstack/logstash-filters.git
-git clone https://opendev.org/openstack/magnum.git
-git clone https://opendev.org/openstack/magnum-specs.git
-git clone https://opendev.org/openstack/magnum-tempest-plugin.git
-git clone https://opendev.org/openstack/magnum-ui.git
-git clone https://opendev.org/openstack/manila.git
-git clone https://opendev.org/openstack/manila-image-elements.git
-git clone https://opendev.org/openstack/manila-specs.git
-git clone https://opendev.org/openstack/manila-tempest-plugin.git
-git clone https://opendev.org/openstack/manila-test-image.git
-git clone https://opendev.org/openstack/manila-ui.git
-git clone https://opendev.org/openstack/masakari-dashboard.git
-git clone https://opendev.org/openstack/masakari.git
-git clone https://opendev.org/openstack/masakari-monitors.git
-git clone https://opendev.org/openstack/masakari-specs.git
-git clone https://opendev.org/openstack/metalsmith.git
-git clone https://opendev.org/openstack/microversion-parse
-git clone https://opendev.org/openstack/mistral-dashboard.git
-git clone https://opendev.org/openstack/mistral-extra.git
-git clone https://opendev.org/openstack/mistral.git
-git clone https://opendev.org/openstack/mistral-lib.git
-git clone https://opendev.org/openstack/mistral-specs.git
-git clone https://opendev.org/openstack/mistral-tempest-plugin.git
-git clone https://opendev.org/openstack/molteniron.git
-git clone https://opendev.org/openstack/monasca-agent.git
-git clone https://opendev.org/openstack/monasca-analytics.git
-git clone https://opendev.org/openstack/monasca-api.git
-git clone https://opendev.org/openstack/monasca-ceilometer.git
-git clone https://opendev.org/openstack/monasca-common.git
-git clone https://opendev.org/openstack/monasca-events-api.git
-git clone https://opendev.org/openstack/monasca-grafana-datasource.git
-git clone https://opendev.org/openstack/monasca-kibana-plugin.git
-git clone https://opendev.org/openstack/monasca-log-api.git
-git clone https://opendev.org/openstack/monasca-notification.git
-git clone https://opendev.org/openstack/monasca-persister.git
-git clone https://opendev.org/openstack/monasca-specs.git
-git clone https://opendev.org/openstack/monasca-statsd.git
-git clone https://opendev.org/openstack/monasca-tempest-plugin.git
-git clone https://opendev.org/openstack/monasca-thresh.git
-git clone https://opendev.org/openstack/monasca-transform.git
-git clone https://opendev.org/openstack/monasca-ui.git
-git clone https://opendev.org/openstack/mox3.git
-git clone https://opendev.org/openstack/murano-agent.git
-git clone https://opendev.org/openstack/murano-apps.git
-git clone https://opendev.org/openstack/murano-dashboard.git
-git clone https://opendev.org/openstack/murano.git
-git clone https://opendev.org/openstack/murano-pkg-check.git
-git clone https://opendev.org/openstack/murano-specs.git
-git clone https://opendev.org/openstack/murano-tempest-plugin.git
-git clone https://opendev.org/openstack/networking-ansible
-git clone https://opendev.org/openstack/networking-bagpipe.git
-git clone https://opendev.org/openstack/networking-baremetal.git
-git clone https://opendev.org/openstack/networking-bgpvpn.git
-git clone https://opendev.org/openstack/networking-generic-switch.git
-git clone https://opendev.org/openstack/networking-hyperv.git
-git clone https://opendev.org/openstack/networking-l2gw
-git clone https://opendev.org/openstack/networking-midonet.git
-git clone https://opendev.org/openstack/networking-odl.git
-git clone https://opendev.org/openstack/networking-ovn.git
-git clone https://opendev.org/openstack/networking-sfc.git
-git clone https://opendev.org/openstack/neutron-dynamic-routing.git
-git clone https://opendev.org/openstack/neutron-fwaas-dashboard.git
-git clone https://opendev.org/openstack/neutron-fwaas.git
-git clone https://opendev.org/openstack/neutron.git
-git clone https://opendev.org/openstack/neutron-lbaas-dashboard.git
-git clone https://opendev.org/openstack/neutron-lbaas.git
-git clone https://opendev.org/openstack/neutron-lib.git
-git clone https://opendev.org/openstack/neutron-specs.git
-git clone https://opendev.org/openstack/neutron-tempest-plugin.git
-git clone https://opendev.org/openstack/neutron-vpnaas-dashboard.git
-git clone https://opendev.org/openstack/neutron-vpnaas.git
-git clone https://opendev.org/openstack/nose-html-output.git
-git clone https://opendev.org/openstack/nova.git
-git clone https://opendev.org/openstack/novajoin
-git clone https://opendev.org/openstack/nova-mksproxy
-git clone https://opendev.org/openstack/nova-specs.git
-git clone https://opendev.org/openstack/octavia-dashboard.git
-git clone https://opendev.org/openstack/octavia.git
-git clone https://opendev.org/openstack/octavia-lib.git
-git clone https://opendev.org/openstack/octavia-tempest-plugin.git
-git clone https://opendev.org/openstack/openstack-ansible-apt_package_pinning.git
-git clone https://opendev.org/openstack/openstack-ansible-ceph_client.git
-git clone https://opendev.org/openstack/openstack-ansible-galera_client.git
-git clone https://opendev.org/openstack/openstack-ansible-galera_server.git
-git clone https://opendev.org/openstack/openstack-ansible.git
-git clone https://opendev.org/openstack/openstack-ansible-haproxy_server.git
-git clone https://opendev.org/openstack/openstack-ansible-lxc_container_create.git
-git clone https://opendev.org/openstack/openstack-ansible-lxc_hosts.git
-git clone https://opendev.org/openstack/openstack-ansible-memcached_server.git
-git clone https://opendev.org/openstack/openstack-ansible-nspawn_container_create.git
-git clone https://opendev.org/openstack/openstack-ansible-nspawn_hosts.git
-git clone https://opendev.org/openstack/openstack-ansible-openstack_hosts.git
-git clone https://opendev.org/openstack/openstack-ansible-openstack_openrc.git
-git clone https://opendev.org/openstack/openstack-ansible-ops.git
-git clone https://opendev.org/openstack/openstack-ansible-os_aodh.git
-git clone https://opendev.org/openstack/openstack-ansible-os_barbican.git
-git clone https://opendev.org/openstack/openstack-ansible-os_blazar.git
-git clone https://opendev.org/openstack/openstack-ansible-os_ceilometer.git
-git clone https://opendev.org/openstack/openstack-ansible-os_cinder.git
-git clone https://opendev.org/openstack/openstack-ansible-os_cloudkitty.git
-git clone https://opendev.org/openstack/openstack-ansible-os_congress.git
-git clone https://opendev.org/openstack/openstack-ansible-os_designate.git
-git clone https://opendev.org/openstack/openstack-ansible-os_freezer.git
-git clone https://opendev.org/openstack/openstack-ansible-os_glance.git
-git clone https://opendev.org/openstack/openstack-ansible-os_gnocchi.git
-git clone https://opendev.org/openstack/openstack-ansible-os_heat.git
-git clone https://opendev.org/openstack/openstack-ansible-os_horizon.git
-git clone https://opendev.org/openstack/openstack-ansible-os_ironic.git
-git clone https://opendev.org/openstack/openstack-ansible-os_karbor.git
-git clone https://opendev.org/openstack/openstack-ansible-os_keystone.git
-git clone https://opendev.org/openstack/openstack-ansible-os_magnum.git
-git clone https://opendev.org/openstack/openstack-ansible-os_manila.git
-git clone https://opendev.org/openstack/openstack-ansible-os_masakari.git
-git clone https://opendev.org/openstack/openstack-ansible-os_mistral.git
-git clone https://opendev.org/openstack/openstack-ansible-os_murano.git
-git clone https://opendev.org/openstack/openstack-ansible-os_neutron.git
-git clone https://opendev.org/openstack/openstack-ansible-os_nova.git
-git clone https://opendev.org/openstack/openstack-ansible-os_octavia.git
-git clone https://opendev.org/openstack/openstack-ansible-os_panko.git
-git clone https://opendev.org/openstack/openstack-ansible-os_placement.git
-git clone https://opendev.org/openstack/openstack-ansible-os_rally.git
-git clone https://opendev.org/openstack/openstack-ansible-os_sahara.git
-git clone https://opendev.org/openstack/openstack-ansible-os_swift.git
-git clone https://opendev.org/openstack/openstack-ansible-os_tacker.git
-git clone https://opendev.org/openstack/openstack-ansible-os_tempest.git
-git clone https://opendev.org/openstack/openstack-ansible-os_trove.git
-git clone https://opendev.org/openstack/openstack-ansible-os_zun.git
-git clone https://opendev.org/openstack/openstack-ansible-pip_lock_down.git
-git clone https://opendev.org/openstack/openstack-ansible-plugins.git
-git clone https://opendev.org/openstack/openstack-ansible-rabbitmq_server.git
-git clone https://opendev.org/openstack/openstack-ansible-repo_server.git
-git clone https://opendev.org/openstack/openstack-ansible-rsyslog_client.git
-git clone https://opendev.org/openstack/openstack-ansible-rsyslog_server.git
-git clone https://opendev.org/openstack/openstack-ansible-security.git
-git clone https://opendev.org/openstack/openstack-ansible-specs.git
-git clone https://opendev.org/openstack/openstack-ansible-tests.git
-git clone https://opendev.org/openstack/openstack-chef.git
-git clone https://opendev.org/openstack/openstack-chef-repo.git
-git clone https://opendev.org/openstack/openstack-chef-specs.git
-git clone https://opendev.org/openstack/openstackclient.git
-git clone https://opendev.org/openstack/openstackdocstheme.git
-git clone https://opendev.org/openstack/openstack-doc-tools.git
-git clone https://opendev.org/openstack/openstack-health.git
-git clone https://opendev.org/openstack/openstack-helm-addons.git
-git clone https://opendev.org/openstack/openstack-helm-docs.git
-git clone https://opendev.org/openstack/openstack-helm.git
-git clone https://opendev.org/openstack/openstack-helm-images.git
-git clone https://opendev.org/openstack/openstack-helm-infra.git
-git clone https://opendev.org/openstack/openstack-nose.git
-git clone https://opendev.org/openstack/openstack-planet.git
-git clone https://opendev.org/openstack/openstacksdk.git
-git clone https://opendev.org/openstack/openstack-tempest-skiplist
-git clone https://opendev.org/openstack/openstack-virtual-baremetal.git
-git clone https://opendev.org/openstack/openstack-zuul-jobs.git
-git clone https://opendev.org/openstack/openstack-zuul-roles.git
-git clone https://opendev.org/openstack/os-api-ref.git
-git clone https://opendev.org/openstack/os-apply-config.git
-git clone https://opendev.org/openstack/os-brick.git
-git clone https://opendev.org/openstack/osc-lib.git
-git clone https://opendev.org/openstack/os-client-config.git
-git clone https://opendev.org/openstack/os-collect-config.git
-git clone https://opendev.org/openstack/osc-placement.git
-git clone https://opendev.org/openstack/os-ken.git
-git clone https://opendev.org/openstack/oslo.cache.git
-git clone https://opendev.org/openstack/oslo.concurrency.git
-git clone https://opendev.org/openstack/oslo.config.git
-git clone https://opendev.org/openstack/oslo.context.git
-git clone https://opendev.org/openstack/oslo-cookiecutter.git
-git clone https://opendev.org/openstack/oslo.db.git
-git clone https://opendev.org/openstack/os-loganalyze.git
-git clone https://opendev.org/openstack/oslo.i18n.git
-git clone https://opendev.org/openstack/oslo.limit.git
-git clone https://opendev.org/openstack/oslo.log.git
-git clone https://opendev.org/openstack/oslo.messaging.git
-git clone https://opendev.org/openstack/oslo.middleware.git
-git clone https://opendev.org/openstack/oslo.policy.git
-git clone https://opendev.org/openstack/oslo.privsep.git
-git clone https://opendev.org/openstack/oslo.reports.git
-git clone https://opendev.org/openstack/oslo.rootwrap.git
-git clone https://opendev.org/openstack/oslo.serialization.git
-git clone https://opendev.org/openstack/oslo.service.git
-git clone https://opendev.org/openstack/oslo-specs.git
-git clone https://opendev.org/openstack/oslotest.git
-git clone https://opendev.org/openstack/oslo.tools.git
-git clone https://opendev.org/openstack/oslo.upgradecheck.git
-git clone https://opendev.org/openstack/oslo.utils.git
-git clone https://opendev.org/openstack/oslo.versionedobjects.git
-git clone https://opendev.org/openstack/oslo.vmware.git
-git clone https://opendev.org/openstack/os-net-config.git
-git clone https://opendev.org/openstack/os-performance-tools.git
-git clone https://opendev.org/openstack/osprofiler.git
-git clone https://opendev.org/openstack/os-refresh-config.git
-git clone https://opendev.org/openstack/os-resource-classes.git
-git clone https://opendev.org/openstack/os-service-types.git
-git clone https://opendev.org/openstack/os-testr.git
-git clone https://opendev.org/openstack/os-traits.git
-git clone https://opendev.org/openstack/os-vif.git
-git clone https://opendev.org/openstack/os-win.git
-git clone https://opendev.org/openstack/oswin-tempest-plugin.git
-git clone https://opendev.org/openstack/ovn-octavia-provider
-git clone https://opendev.org/openstack/ovsdbapp.git
-git clone https://opendev.org/openstack/panko.git
-git clone https://opendev.org/openstack/patrole.git
-git clone https://opendev.org/openstack/paunch.git
-git clone https://opendev.org/openstack/pbr.git
-git clone https://opendev.org/openstack/performance-docs.git
-git clone https://opendev.org/openstack/placement.git
-git clone https://opendev.org/openstack/project-config.git
-git clone https://opendev.org/openstack/ptgbot.git
-git clone https://opendev.org/openstack/puppet-aodh.git
-git clone https://opendev.org/openstack/puppet-barbican.git
-git clone https://opendev.org/openstack/puppet-ceilometer.git
-git clone https://opendev.org/openstack/puppet-ceph.git
-git clone https://opendev.org/openstack/puppet-cinder.git
-git clone https://opendev.org/openstack/puppet-cloudkitty.git
-git clone https://opendev.org/openstack/puppet-congress.git
-git clone https://opendev.org/openstack/puppet-designate.git
-git clone https://opendev.org/openstack/puppet-ec2api.git
-git clone https://opendev.org/openstack/puppet-freezer.git
-git clone https://opendev.org/openstack/puppet-glance.git
-git clone https://opendev.org/openstack/puppet-glare.git
-git clone https://opendev.org/openstack/puppet-gnocchi.git
-git clone https://opendev.org/openstack/puppet-heat.git
-git clone https://opendev.org/openstack/puppet-horizon.git
-git clone https://opendev.org/openstack/puppet-ironic.git
-git clone https://opendev.org/openstack/puppet-keystone.git
-git clone https://opendev.org/openstack/puppet-magnum.git
-git clone https://opendev.org/openstack/puppet-manila.git
-git clone https://opendev.org/openstack/puppet-mistral.git
-git clone https://opendev.org/openstack/puppet-monasca.git
-git clone https://opendev.org/openstack/puppet-murano.git
-git clone https://opendev.org/openstack/puppet-neutron.git
-git clone https://opendev.org/openstack/puppet-nova.git
-git clone https://opendev.org/openstack/puppet-octavia.git
-git clone https://opendev.org/openstack/puppet-openstack-cookiecutter.git
-git clone https://opendev.org/openstack/puppet-openstack_extras.git
-git clone https://opendev.org/openstack/puppet-openstack-guide.git
-git clone https://opendev.org/openstack/puppet-openstack-integration.git
-git clone https://opendev.org/openstack/puppet-openstacklib.git
-git clone https://opendev.org/openstack/puppet-openstack_spec_helper.git
-git clone https://opendev.org/openstack/puppet-openstack-specs.git
-git clone https://opendev.org/openstack/puppet-oslo.git
-git clone https://opendev.org/openstack/puppet-ovn.git
-git clone https://opendev.org/openstack/puppet-pacemaker.git
-git clone https://opendev.org/openstack/puppet-panko.git
-git clone https://opendev.org/openstack/puppet-placement.git
-git clone https://opendev.org/openstack/puppet-qdr.git
-git clone https://opendev.org/openstack/puppet-rally.git
-git clone https://opendev.org/openstack/puppet-sahara.git
-git clone https://opendev.org/openstack/puppet-senlin.git
-git clone https://opendev.org/openstack/puppet-swift.git
-git clone https://opendev.org/openstack/puppet-tacker.git
-git clone https://opendev.org/openstack/puppet-tempest.git
-git clone https://opendev.org/openstack/puppet-tripleo.git
-git clone https://opendev.org/openstack/puppet-trove.git
-git clone https://opendev.org/openstack/puppet-vitrage.git
-git clone https://opendev.org/openstack/puppet-vswitch.git
-git clone https://opendev.org/openstack/puppet-watcher.git
-git clone https://opendev.org/openstack/puppet-zaqar.git
-git clone https://opendev.org/openstack/pycadf.git
-git clone https://opendev.org/openstack/pyeclib.git
-git clone https://opendev.org/openstack/pymod2pkg.git
-git clone https://opendev.org/openstack/python-adjutantclient.git
-git clone https://opendev.org/openstack/python-aodhclient.git
-git clone https://opendev.org/openstack/python-barbicanclient.git
-git clone https://opendev.org/openstack/python-blazarclient.git
-git clone https://opendev.org/openstack/python-brick-cinderclient-ext.git
-git clone https://opendev.org/openstack/python-cinderclient.git
-git clone https://opendev.org/openstack/python-cloudkittyclient.git
-git clone https://opendev.org/openstack/python-congressclient.git
-git clone https://opendev.org/openstack/python-cyborgclient.git
-git clone https://opendev.org/openstack/python-designateclient.git
-git clone https://opendev.org/openstack/python-freezerclient.git
-git clone https://opendev.org/openstack/python-glanceclient.git
-git clone https://opendev.org/openstack/python-heatclient.git
-git clone https://opendev.org/openstack/python-ironicclient.git
-git clone https://opendev.org/openstack/python-ironic-inspector-client.git
-git clone https://opendev.org/openstack/python-karborclient.git
-git clone https://opendev.org/openstack/python-keystoneclient.git
-git clone https://opendev.org/openstack/python-magnumclient.git
-git clone https://opendev.org/openstack/python-manilaclient.git
-git clone https://opendev.org/openstack/python-masakariclient.git
-git clone https://opendev.org/openstack/python-mistralclient.git
-git clone https://opendev.org/openstack/python-monascaclient.git
-git clone https://opendev.org/openstack/python-muranoclient.git
-git clone https://opendev.org/openstack/python-neutronclient.git
-git clone https://opendev.org/openstack/python-novaclient.git
-git clone https://opendev.org/openstack/python-octaviaclient.git
-git clone https://opendev.org/openstack/python-openstackclient.git
-git clone https://opendev.org/openstack/python-pankoclient.git
-git clone https://opendev.org/openstack/python-qinlingclient.git
-git clone https://opendev.org/openstack/python-saharaclient.git
-git clone https://opendev.org/openstack/python-searchlightclient.git
-git clone https://opendev.org/openstack/python-senlinclient.git
-git clone https://opendev.org/openstack/python-solumclient.git
-git clone https://opendev.org/openstack/python-swiftclient.git
-git clone https://opendev.org/openstack/python-tackerclient.git
-git clone https://opendev.org/openstack/python-tempestconf
-git clone https://opendev.org/openstack/python-tricircleclient.git
-git clone https://opendev.org/openstack/python-tripleoclient.git
-git clone https://opendev.org/openstack/python-troveclient.git
-git clone https://opendev.org/openstack/python-vitrageclient.git
-git clone https://opendev.org/openstack/python-watcherclient.git
-git clone https://opendev.org/openstack/python-zaqarclient.git
-git clone https://opendev.org/openstack/python-zunclient.git
-git clone https://opendev.org/openstack/qa-specs.git
-git clone https://opendev.org/openstack/qinling-dashboard.git
-git clone https://opendev.org/openstack/qinling.git
-git clone https://opendev.org/openstack/rally.git
-git clone https://opendev.org/openstack/rally-openstack.git
-git clone https://opendev.org/openstack/releases.git
-git clone https://opendev.org/openstack/release-test.git
-git clone https://opendev.org/openstack/renderspec.git
-git clone https://opendev.org/openstack/reno.git
-git clone https://opendev.org/openstack/requestsexceptions.git
-git clone https://opendev.org/openstack/requirements.git
-git clone https://opendev.org/openstack/reviewday.git
-git clone https://opendev.org/openstack/reviewstats.git
-git clone https://opendev.org/openstack/rpm-packaging.git
-git clone https://opendev.org/openstack/rpm-packaging-tools.git
-git clone https://opendev.org/openstack/sahara-dashboard.git
-git clone https://opendev.org/openstack/sahara-extra.git
-git clone https://opendev.org/openstack/sahara.git
-git clone https://opendev.org/openstack/sahara-image-elements.git
-git clone https://opendev.org/openstack/sahara-plugin-ambari.git
-git clone https://opendev.org/openstack/sahara-plugin-cdh.git
-git clone https://opendev.org/openstack/sahara-plugin-mapr.git
-git clone https://opendev.org/openstack/sahara-plugin-spark.git
-git clone https://opendev.org/openstack/sahara-plugin-storm.git
-git clone https://opendev.org/openstack/sahara-plugin-vanilla.git
-git clone https://opendev.org/openstack/sahara-specs.git
-git clone https://opendev.org/openstack/sahara-tests.git
-git clone https://opendev.org/openstack/searchlight.git
-git clone https://opendev.org/openstack/searchlight-specs.git
-git clone https://opendev.org/openstack/searchlight-ui.git
-git clone https://opendev.org/openstack/senlin-dashboard.git
-git clone https://opendev.org/openstack/senlin.git
-git clone https://opendev.org/openstack/senlin-tempest-plugin.git
-git clone https://opendev.org/openstack/shade.git
-git clone https://opendev.org/openstack/solum-dashboard.git
-git clone https://opendev.org/openstack/solum.git
-git clone https://opendev.org/openstack/solum-specs.git
-git clone https://opendev.org/openstack/solum-tempest-plugin.git
-git clone https://opendev.org/openstack/specs-cookiecutter.git
-git clone https://opendev.org/openstack/sphinx-feature-classification.git
-git clone https://opendev.org/openstack/stackviz.git
-git clone https://opendev.org/openstack/stevedore.git
-git clone https://opendev.org/openstack/storlets.git
-git clone https://opendev.org/openstack/sushy-cli
-git clone https://opendev.org/openstack/sushy.git
-git clone https://opendev.org/openstack/sushy-tools.git
-git clone https://opendev.org/openstack/swift-bench.git
-git clone https://opendev.org/openstack/swift.git
-git clone https://opendev.org/openstack/swift-specs.git
-git clone https://opendev.org/openstack/tacker.git
-git clone https://opendev.org/openstack/tacker-horizon.git
-git clone https://opendev.org/openstack/tacker-specs.git
-git clone https://opendev.org/openstack/taskflow.git
-git clone https://opendev.org/openstack/telemetry-specs.git
-git clone https://opendev.org/openstack/telemetry-tempest-plugin.git
-git clone https://opendev.org/openstack/tempest.git
-git clone https://opendev.org/openstack/tempest-horizon.git
-git clone https://opendev.org/openstack/tempest-lib.git
-git clone https://opendev.org/openstack/tempest-plugin-cookiecutter.git
-git clone https://opendev.org/openstack/tempest-stress.git
-git clone https://opendev.org/openstack/tenks.git
-git clone https://opendev.org/openstack/tooz.git
-git clone https://opendev.org/openstack/tosca-parser.git
-git clone https://opendev.org/openstack/tricircle.git
-git clone https://opendev.org/openstack/tripleo-ansible.git
-git clone https://opendev.org/openstack/tripleo-ci.git
-git clone https://opendev.org/openstack/tripleo-common.git
-git clone https://opendev.org/openstack/tripleo-common-tempest-plugin
-git clone https://opendev.org/openstack/tripleo-common-tempest-plugin.git
-git clone https://opendev.org/openstack/tripleo-docs.git
-git clone https://opendev.org/openstack/tripleo-ha-utils.git
-git clone https://opendev.org/openstack/tripleo-heat-templates.git
-git clone https://opendev.org/openstack/tripleo-image-elements.git
-git clone https://opendev.org/openstack/tripleo-ipsec.git
-git clone https://opendev.org/openstack/tripleo-operator-ansible
-git clone https://opendev.org/openstack/tripleo-puppet-elements.git
-git clone https://opendev.org/openstack/tripleo-quickstart-extras.git
-git clone https://opendev.org/openstack/tripleo-quickstart.git
-git clone https://opendev.org/openstack/tripleo-repos.git
-git clone https://opendev.org/openstack/tripleo-specs.git
-git clone https://opendev.org/openstack/tripleo-upgrade.git
-git clone https://opendev.org/openstack/tripleo-validations.git
-git clone https://opendev.org/openstack/trove-dashboard.git
-git clone https://opendev.org/openstack/trove.git
-git clone https://opendev.org/openstack/trove-specs.git
-git clone https://opendev.org/openstack/trove-tempest-plugin.git
-git clone https://opendev.org/openstack/ui-cookiecutter.git
-git clone https://opendev.org/openstack/validations-common
-git clone https://opendev.org/openstack/validations-libs
-git clone https://opendev.org/openstack/virtualbmc.git
-git clone https://opendev.org/openstack/vitrage-dashboard.git
-git clone https://opendev.org/openstack/vitrage.git
-git clone https://opendev.org/openstack/vitrage-specs.git
-git clone https://opendev.org/openstack/vitrage-tempest-plugin.git
-git clone https://opendev.org/openstack/vmtp
-git clone https://opendev.org/openstack/vmware-nsx
-git clone https://opendev.org/openstack/vmware-nsxlib
-git clone https://opendev.org/openstack/watcher-dashboard.git
-git clone https://opendev.org/openstack/watcher.git
-git clone https://opendev.org/openstack/watcher-specs.git
-git clone https://opendev.org/openstack/watcher-tempest-plugin.git
-git clone https://opendev.org/openstack/whereto.git
-git clone https://opendev.org/openstack/xstatic-angular-bootstrap.git
-git clone https://opendev.org/openstack/xstatic-angular-gettext.git
-git clone https://opendev.org/openstack/xstatic-angular.git
-git clone https://opendev.org/openstack/xstatic-angular-lrdragndrop.git
-git clone https://opendev.org/openstack/xstatic-angular-material.git
-git clone https://opendev.org/openstack/xstatic-angular-notify.git
-git clone https://opendev.org/openstack/xstatic-angular-smart-table.git
-git clone https://opendev.org/openstack/xstatic-angular-uuid.git
-git clone https://opendev.org/openstack/xstatic-angular-vis.git
-git clone https://opendev.org/openstack/xstatic-bootstrap-datepicker.git
-git clone https://opendev.org/openstack/xstatic-bootstrap-scss.git
-git clone https://opendev.org/openstack/xstatic-bootswatch.git
-git clone https://opendev.org/openstack/xstatic-d3.git
-git clone https://opendev.org/openstack/xstatic-dagre
-git clone https://opendev.org/openstack/xstatic-dagre-d3
-git clone https://opendev.org/openstack/xstatic-filesaver.git
-git clone https://opendev.org/openstack/xstatic-font-awesome.git
-git clone https://opendev.org/openstack/xstatic-graphlib
-git clone https://opendev.org/openstack/xstatic-hogan.git
-git clone https://opendev.org/openstack/xstatic-jasmine.git
-git clone https://opendev.org/openstack/xstatic-jquery-migrate.git
-git clone https://opendev.org/openstack/xstatic-jquery.quicksearch.git
-git clone https://opendev.org/openstack/xstatic-jquery.tablesorter.git
-git clone https://opendev.org/openstack/xstatic-jsencrypt.git
-git clone https://opendev.org/openstack/xstatic-json2yaml.git
-git clone https://opendev.org/openstack/xstatic-js-yaml.git
-git clone https://opendev.org/openstack/xstatic-lodash
-git clone https://opendev.org/openstack/xstatic-magic-search.git
-git clone https://opendev.org/openstack/xstatic-mdi.git
-git clone https://opendev.org/openstack/xstatic-moment
-git clone https://opendev.org/openstack/xstatic-moment-timezone
-git clone https://opendev.org/openstack/xstatic-rickshaw.git
-git clone https://opendev.org/openstack/xstatic-roboto-fontface.git
-git clone https://opendev.org/openstack/xstatic-spin.git
-git clone https://opendev.org/openstack/yaql.git
-git clone https://opendev.org/openstack/zaqar.git
-git clone https://opendev.org/openstack/zaqar-specs.git
-git clone https://opendev.org/openstack/zaqar-tempest-plugin.git
-git clone https://opendev.org/openstack/zaqar-ui.git
-git clone https://opendev.org/openstack/zun.git
-git clone https://opendev.org/openstack/zun-tempest-plugin.git
-git clone https://opendev.org/openstack/zun-ui.git
+git clone --mirror https://github.com/gnocchixyz/gnocchi
+git clone --mirror https://github.com/openstack/dragonflow.git
+git clone --mirror https://github.com/openstack/python-tripleoclient.git
+git clone --mirror https://opendev.org/opendev/ansible-role-cloud-launcher.git
+git clone --mirror https://opendev.org/opendev/askbot-theme.git
+git clone --mirror https://opendev.org/opendev/germqtt.git
+git clone --mirror https://opendev.org/opendev/git-restack.git
+git clone --mirror https://opendev.org/opendev/grafyaml.git
+git clone --mirror https://opendev.org/opendev/log-classify.git
+git clone --mirror https://opendev.org/opendev/log_processor.git
+git clone --mirror https://opendev.org/opendev/lpmqtt.git
+git clone --mirror https://opendev.org/opendev/meetbot.git
+git clone --mirror https://opendev.org/opendev/mqtt_statsd.git
+git clone --mirror https://opendev.org/opendev/project-config-example.git
+git clone --mirror https://opendev.org/opendev/puppet-accessbot.git
+git clone --mirror https://opendev.org/opendev/puppet-ansible.git
+git clone --mirror https://opendev.org/opendev/puppet-apparmor.git
+git clone --mirror https://opendev.org/opendev/puppet-asterisk.git
+git clone --mirror https://opendev.org/opendev/puppet-bandersnatch.git
+git clone --mirror https://opendev.org/opendev/puppet-bup.git
+git clone --mirror https://opendev.org/opendev/puppet-cgit.git
+git clone --mirror https://opendev.org/opendev/puppet-ciwatch.git
+git clone --mirror https://opendev.org/opendev/puppet-dashboard.git
+git clone --mirror https://opendev.org/opendev/puppet-drupal.git
+git clone --mirror https://opendev.org/opendev/puppet-elastic_recheck.git
+git clone --mirror https://opendev.org/opendev/puppet-elasticsearch.git
+git clone --mirror https://opendev.org/opendev/puppet-ethercalc.git
+git clone --mirror https://opendev.org/opendev/puppet-etherpad_lite.git
+git clone --mirror https://opendev.org/opendev/puppet-exim.git
+git clone --mirror https://opendev.org/opendev/puppet-germqtt.git
+git clone --mirror https://opendev.org/opendev/puppet-gerritbot.git
+git clone --mirror https://opendev.org/opendev/puppet-github.git
+git clone --mirror https://opendev.org/opendev/puppet-grafyaml.git
+git clone --mirror https://opendev.org/opendev/puppet-haveged.git
+git clone --mirror https://opendev.org/opendev/puppet-hound.git
+git clone --mirror https://opendev.org/opendev/puppet-infracloud.git
+git clone --mirror https://opendev.org/opendev/puppet-infra-cookiecutter.git
+git clone --mirror https://opendev.org/opendev/puppet-ipsilon.git
+git clone --mirror https://opendev.org/opendev/puppet-iptables.git
+git clone --mirror https://opendev.org/opendev/puppet-jeepyb.git
+git clone --mirror https://opendev.org/opendev/puppet-jenkins.git
+git clone --mirror https://opendev.org/opendev/puppet-kerberos.git
+git clone --mirror https://opendev.org/opendev/puppet-kibana.git
+git clone --mirror https://opendev.org/opendev/puppet-logrotate.git
+git clone --mirror https://opendev.org/opendev/puppet-logstash.git
+git clone --mirror https://opendev.org/opendev/puppet-lpmqtt.git
+git clone --mirror https://opendev.org/opendev/puppet-mailman.git
+git clone --mirror https://opendev.org/opendev/puppet-meetbot.git
+git clone --mirror https://opendev.org/opendev/puppet-mosquitto.git
+git clone --mirror https://opendev.org/opendev/puppet-mqtt_statsd.git
+git clone --mirror https://opendev.org/opendev/puppet-openafs.git
+git clone --mirror https://opendev.org/opendev/puppet-openstack_health.git
+git clone --mirror https://opendev.org/opendev/puppet-os_client_config.git
+git clone --mirror https://opendev.org/opendev/puppet-packagekit.git
+git clone --mirror https://opendev.org/opendev/puppet-pgsql_backup.git
+git clone --mirror https://opendev.org/opendev/puppet-phabricator.git
+git clone --mirror https://opendev.org/opendev/puppet-pip.git
+git clone --mirror https://opendev.org/opendev/puppet-planet.git
+git clone --mirror https://opendev.org/opendev/puppet-project_config.git
+git clone --mirror https://opendev.org/opendev/puppet-puppet.git
+git clone --mirror https://opendev.org/opendev/puppet-redis.git
+git clone --mirror https://opendev.org/opendev/puppet-simpleproxy.git
+git clone --mirror https://opendev.org/opendev/puppet-snmpd.git
+git clone --mirror https://opendev.org/opendev/puppet-ssh.git
+git clone --mirror https://opendev.org/opendev/puppet-ssl_cert_check.git
+git clone --mirror https://opendev.org/opendev/puppet-statusbot.git
+git clone --mirror https://opendev.org/opendev/puppet-storyboard.git
+git clone --mirror https://opendev.org/opendev/puppet-subunit2sql.git
+git clone --mirror https://opendev.org/opendev/puppet-sudoers.git
+git clone --mirror https://opendev.org/opendev/puppet-tmpreaper.git
+git clone --mirror https://opendev.org/opendev/puppet-translation_checksite.git
+git clone --mirror https://opendev.org/opendev/puppet-ulimit.git
+git clone --mirror https://opendev.org/opendev/puppet-unattended_upgrades.git
+git clone --mirror https://opendev.org/opendev/puppet-unbound.git
+git clone --mirror https://opendev.org/opendev/puppet-user.git
+git clone --mirror https://opendev.org/opendev/puppet-vcsrepo.git
+git clone --mirror https://opendev.org/opendev/pynotedb.git
+git clone --mirror https://opendev.org/opendev/python-storyboardclient.git
+git clone --mirror https://opendev.org/opendev/statusbot.git
+git clone --mirror https://opendev.org/openstack/adjutant.git
+git clone --mirror https://opendev.org/openstack/adjutant-ui.git
+git clone --mirror https://opendev.org/openstack/almanach
+git clone --mirror https://opendev.org/openstack/ansible-config_template.git
+git clone --mirror https://opendev.org/openstack/ansible-hardening.git
+git clone --mirror https://opendev.org/openstack/ansible-role-atos-hsm.git
+git clone --mirror https://opendev.org/openstack/ansible-role-chrony.git
+git clone --mirror https://opendev.org/openstack/ansible-role-collect-logs.git
+git clone --mirror https://opendev.org/openstack/ansible-role-container-registry.git
+git clone --mirror https://opendev.org/openstack/ansible-role-openstack-operations.git
+git clone --mirror https://opendev.org/openstack/ansible-role-python_venv_build.git
+git clone --mirror https://opendev.org/openstack/ansible-role-qdrouterd.git
+git clone --mirror https://opendev.org/openstack/ansible-role-redhat-subscription.git
+git clone --mirror https://opendev.org/openstack/ansible-role-systemd_mount.git
+git clone --mirror https://opendev.org/openstack/ansible-role-systemd_networkd.git
+git clone --mirror https://opendev.org/openstack/ansible-role-systemd_service.git
+git clone --mirror https://opendev.org/openstack/ansible-role-thales-hsm.git
+git clone --mirror https://opendev.org/openstack/ansible-role-tripleo-modify-image.git
+git clone --mirror https://opendev.org/openstack/ansible-role-uwsgi.git
+git clone --mirror https://opendev.org/openstack/aodh.git
+git clone --mirror https://opendev.org/openstack/automaton.git
+git clone --mirror https://opendev.org/openstack/barbican.git
+git clone --mirror https://opendev.org/openstack/barbican-specs.git
+git clone --mirror https://opendev.org/openstack/barbican-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/barbican-ui
+git clone --mirror https://opendev.org/openstack/bashate.git
+git clone --mirror https://opendev.org/openstack/bifrost.git
+git clone --mirror https://opendev.org/openstack/blazar-dashboard.git
+git clone --mirror https://opendev.org/openstack/blazar.git
+git clone --mirror https://opendev.org/openstack/blazar-nova.git
+git clone --mirror https://opendev.org/openstack/blazar-specs.git
+git clone --mirror https://opendev.org/openstack/blazar-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/bugdaystats.git
+git clone --mirror https://opendev.org/openstack/castellan.git
+git clone --mirror https://opendev.org/openstack/ceilometer.git
+git clone --mirror https://opendev.org/openstack/ceilometermiddleware.git
+git clone --mirror https://opendev.org/openstack/charm-aodh.git
+git clone --mirror https://opendev.org/openstack/charm-barbican.git
+git clone --mirror https://opendev.org/openstack/charm-barbican-softhsm.git
+git clone --mirror https://opendev.org/openstack/charm-barbican-vault.git
+git clone --mirror https://opendev.org/openstack/charm-ceilometer-agent.git
+git clone --mirror https://opendev.org/openstack/charm-ceilometer.git
+git clone --mirror https://opendev.org/openstack/charm-ceph-fs.git
+git clone --mirror https://opendev.org/openstack/charm-ceph-mon.git
+git clone --mirror https://opendev.org/openstack/charm-ceph-osd.git
+git clone --mirror https://opendev.org/openstack/charm-ceph-proxy.git
+git clone --mirror https://opendev.org/openstack/charm-ceph-radosgw.git
+git clone --mirror https://opendev.org/openstack/charm-ceph-rbd-mirror.git
+git clone --mirror https://opendev.org/openstack/charm-cinder-backup.git
+git clone --mirror https://opendev.org/openstack/charm-cinder-backup-swift-proxy
+git clone --mirror https://opendev.org/openstack/charm-cinder-ceph.git
+git clone --mirror https://opendev.org/openstack/charm-cinder.git
+git clone --mirror https://opendev.org/openstack/charm-cinder-purestorage.git
+git clone --mirror https://opendev.org/openstack/charm-cloudkitty.git
+git clone --mirror https://opendev.org/openstack/charm-deployment-guide.git
+git clone --mirror https://opendev.org/openstack/charm-designate-bind.git
+git clone --mirror https://opendev.org/openstack/charm-designate.git
+git clone --mirror https://opendev.org/openstack/charm-glance.git
+git clone --mirror https://opendev.org/openstack/charm-glance-simplestreams-sync.git
+git clone --mirror https://opendev.org/openstack/charm-glusterfs.git
+git clone --mirror https://opendev.org/openstack/charm-gnocchi.git
+git clone --mirror https://opendev.org/openstack/charm-guide.git
+git clone --mirror https://opendev.org/openstack/charm-hacluster.git
+git clone --mirror https://opendev.org/openstack/charm-heat.git
+git clone --mirror https://opendev.org/openstack/charm-interface-barbican-secrets.git
+git clone --mirror https://opendev.org/openstack/charm-interface-bgp.git
+git clone --mirror https://opendev.org/openstack/charm-interface-bind-rndc.git
+git clone --mirror https://opendev.org/openstack/charm-interface-ceph-client.git
+git clone --mirror https://opendev.org/openstack/charm-interface-ceph-mds.git
+git clone --mirror https://opendev.org/openstack/charm-interface-ceph-rbd-mirror.git
+git clone --mirror https://opendev.org/openstack/charm-interface-cinder-backend.git
+git clone --mirror https://opendev.org/openstack/charm-interface-cinder-backup
+git clone --mirror https://opendev.org/openstack/charm-interface-dashboard-plugin.git
+git clone --mirror https://opendev.org/openstack/charm-interface-designate.git
+git clone --mirror https://opendev.org/openstack/charm-interface-gnocchi.git
+git clone --mirror https://opendev.org/openstack/charm-interface-hacluster.git
+git clone --mirror https://opendev.org/openstack/charm-interface-keystone-admin.git
+git clone --mirror https://opendev.org/openstack/charm-interface-keystone-credentials.git
+git clone --mirror https://opendev.org/openstack/charm-interface-keystone-domain-backend.git
+git clone --mirror https://opendev.org/openstack/charm-interface-keystone-fid-service-provider.git
+git clone --mirror https://opendev.org/openstack/charm-interface-keystone.git
+git clone --mirror https://opendev.org/openstack/charm-interface-keystone-notifications
+git clone --mirror https://opendev.org/openstack/charm-interface-manila-plugin.git
+git clone --mirror https://opendev.org/openstack/charm-interface-mysql-innodb-cluster
+git clone --mirror https://opendev.org/openstack/charm-interface-mysql-router
+git clone --mirror https://opendev.org/openstack/charm-interface-mysql-shared.git
+git clone --mirror https://opendev.org/openstack/charm-interface-neutron-load-balancer.git
+git clone --mirror https://opendev.org/openstack/charm-interface-neutron-plugin-api-subordinate.git
+git clone --mirror https://opendev.org/openstack/charm-interface-neutron-plugin.git
+git clone --mirror https://opendev.org/openstack/charm-interface-nova-cell.git
+git clone --mirror https://opendev.org/openstack/charm-interface-nova-compute.git
+git clone --mirror https://opendev.org/openstack/charm-interface-odl-controller-api.git
+git clone --mirror https://opendev.org/openstack/charm-interface-openstack-ha.git
+git clone --mirror https://opendev.org/openstack/charm-interface-ovsdb-manager.git
+git clone --mirror https://opendev.org/openstack/charm-interface-pacemaker-remote.git
+git clone --mirror https://opendev.org/openstack/charm-interface-placement
+git clone --mirror https://opendev.org/openstack/charm-interface-rabbitmq.git
+git clone --mirror https://opendev.org/openstack/charm-interface-service-control.git
+git clone --mirror https://opendev.org/openstack/charm-interface-websso-fid-service-provider.git
+git clone --mirror https://opendev.org/openstack/charm-ironic.git
+git clone --mirror https://opendev.org/openstack/charm-keystone.git
+git clone --mirror https://opendev.org/openstack/charm-keystone-ldap.git
+git clone --mirror https://opendev.org/openstack/charm-keystone-saml-mellon.git
+git clone --mirror https://opendev.org/openstack/charm-layer-ceph-base.git
+git clone --mirror https://opendev.org/openstack/charm-layer-ceph.git
+git clone --mirror https://opendev.org/openstack/charm-layer-openstack-api.git
+git clone --mirror https://opendev.org/openstack/charm-layer-openstack.git
+git clone --mirror https://opendev.org/openstack/charm-layer-openstack-principle.git
+git clone --mirror https://opendev.org/openstack/charm-manila-ganesha
+git clone --mirror https://opendev.org/openstack/charm-manila-generic.git
+git clone --mirror https://opendev.org/openstack/charm-manila.git
+git clone --mirror https://opendev.org/openstack/charm-manila-glusterfs.git
+git clone --mirror https://opendev.org/openstack/charm-masakari.git
+git clone --mirror https://opendev.org/openstack/charm-masakari-monitors.git
+git clone --mirror https://opendev.org/openstack/charm-mistral.git
+git clone --mirror https://opendev.org/openstack/charm-murano.git
+git clone --mirror https://opendev.org/openstack/charm-mysql-innodb-cluster
+git clone --mirror https://opendev.org/openstack/charm-mysql-router
+git clone --mirror https://opendev.org/openstack/charm-neutron-api.git
+git clone --mirror https://opendev.org/openstack/charm-neutron-api-odl.git
+git clone --mirror https://opendev.org/openstack/charm-neutron-api-plugin-ovn
+git clone --mirror https://opendev.org/openstack/charm-neutron-dynamic-routing.git
+git clone --mirror https://opendev.org/openstack/charm-neutron-gateway.git
+git clone --mirror https://opendev.org/openstack/charm-neutron-openvswitch.git
+git clone --mirror https://opendev.org/openstack/charm-nova-cell-controller.git
+git clone --mirror https://opendev.org/openstack/charm-nova-cloud-controller.git
+git clone --mirror https://opendev.org/openstack/charm-nova-compute.git
+git clone --mirror https://opendev.org/openstack/charm-nova-compute-proxy.git
+git clone --mirror https://opendev.org/openstack/charm-nova-lxd.git
+git clone --mirror https://opendev.org/openstack/charm-octavia-dashboard.git
+git clone --mirror https://opendev.org/openstack/charm-octavia-diskimage-retrofit.git
+git clone --mirror https://opendev.org/openstack/charm-octavia.git
+git clone --mirror https://opendev.org/openstack/charm-odl-controller.git
+git clone --mirror https://opendev.org/openstack/charm-openstack-dashboard.git
+git clone --mirror https://opendev.org/openstack/charm-openvswitch-odl.git
+git clone --mirror https://opendev.org/openstack/charm-pacemaker-remote.git
+git clone --mirror https://opendev.org/openstack/charm-panko.git
+git clone --mirror https://opendev.org/openstack/charm-percona-cluster.git
+git clone --mirror https://opendev.org/openstack/charm-placement
+git clone --mirror https://opendev.org/openstack/charm-rabbitmq-server.git
+git clone --mirror https://opendev.org/openstack/charms.ceph.git
+git clone --mirror https://opendev.org/openstack/charms.openstack.git
+git clone --mirror https://opendev.org/openstack/charm-specs.git
+git clone --mirror https://opendev.org/openstack/charm-swift-proxy.git
+git clone --mirror https://opendev.org/openstack/charm-swift-storage.git
+git clone --mirror https://opendev.org/openstack/charm-tempest.git
+git clone --mirror https://opendev.org/openstack/charm-trove.git
+git clone --mirror https://opendev.org/openstack/charm-vault.git
+git clone --mirror https://opendev.org/openstack/charm-watcher
+git clone --mirror https://opendev.org/openstack/charm-watcher-dashboard
+git clone --mirror https://opendev.org/openstack/cinder.git
+git clone --mirror https://opendev.org/openstack/cinderlib.git
+git clone --mirror https://opendev.org/openstack/cinder-specs.git
+git clone --mirror https://opendev.org/openstack/cinder-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/cliff.git
+git clone --mirror https://opendev.org/openstack/cloudkitty-dashboard.git
+git clone --mirror https://opendev.org/openstack/cloudkitty.git
+git clone --mirror https://opendev.org/openstack/cloudkitty-specs.git
+git clone --mirror https://opendev.org/openstack/cloudkitty-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/compute-hyperv.git
+git clone --mirror https://opendev.org/openstack/congress-dashboard.git
+git clone --mirror https://opendev.org/openstack/congress.git
+git clone --mirror https://opendev.org/openstack/congress-specs.git
+git clone --mirror https://opendev.org/openstack/congress-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/constellations.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-application-catalog.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-bare-metal.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-block-storage.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-client.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstackclient.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-common.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-compute.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-dashboard.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-dns.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-identity.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-image.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-integration-test.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-network.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-ops-database.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-ops-messaging.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-orchestration.git
+git clone --mirror https://opendev.org/openstack/cookbook-openstack-telemetry.git
+git clone --mirror https://opendev.org/openstack/cookiecutter.git
+git clone --mirror https://opendev.org/openstack/coverage2sql.git
+git clone --mirror https://opendev.org/openstack/cyborg.git
+git clone --mirror https://opendev.org/openstack/cyborg-specs.git
+git clone --mirror https://opendev.org/openstack/cyborg-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/debtcollector.git
+git clone --mirror https://opendev.org/openstack/designate-dashboard.git
+git clone --mirror https://opendev.org/openstack/designate.git
+git clone --mirror https://opendev.org/openstack/designate-specs.git
+git clone --mirror https://opendev.org/openstack/designate-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/devstack-gate.git
+git clone --mirror https://opendev.org/openstack/devstack.git
+git clone --mirror https://opendev.org/openstack/devstack-plugin-amqp1.git
+git clone --mirror https://opendev.org/openstack/devstack-plugin-ceph.git
+git clone --mirror https://opendev.org/openstack/devstack-plugin-container.git
+git clone --mirror https://opendev.org/openstack/devstack-plugin-cookiecutter.git
+git clone --mirror https://opendev.org/openstack/devstack-plugin-kafka.git
+git clone --mirror https://opendev.org/openstack/devstack-plugin-nfs
+git clone --mirror https://opendev.org/openstack/devstack-plugin-open-cas
+git clone --mirror https://opendev.org/openstack/devstack-plugin-pika.git
+git clone --mirror https://opendev.org/openstack/devstack-plugin-zmq.git
+git clone --mirror https://opendev.org/openstack/devstack-tools.git
+git clone --mirror https://opendev.org/openstack/devstack-vagrant.git
+git clone --mirror https://opendev.org/openstack/dib-utils.git
+git clone --mirror https://opendev.org/openstack/diskimage-builder.git
+git clone --mirror https://opendev.org/openstack/django_openstack_auth.git
+git clone --mirror https://opendev.org/openstack/ec2-api.git
+git clone --mirror https://opendev.org/openstack/ec2api-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/eslint-config-openstack.git
+git clone --mirror https://opendev.org/openstack/freezer-api.git
+git clone --mirror https://opendev.org/openstack/freezer-dr.git
+git clone --mirror https://opendev.org/openstack/freezer.git
+git clone --mirror https://opendev.org/openstack/freezer-specs.git
+git clone --mirror https://opendev.org/openstack/freezer-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/freezer-web-ui.git
+git clone --mirror https://opendev.org/openstack/futurist.git
+git clone --mirror https://opendev.org/openstack/glance.git
+git clone --mirror https://opendev.org/openstack/glance-specs.git
+git clone --mirror https://opendev.org/openstack/glance_store.git
+git clone --mirror https://opendev.org/openstack/grenade.git
+git clone --mirror https://opendev.org/openstack/hacking.git
+git clone --mirror https://opendev.org/openstack/heat-agents.git
+git clone --mirror https://opendev.org/openstack/heat-cfnclient.git
+git clone --mirror https://opendev.org/openstack/heat-cfntools.git
+git clone --mirror https://opendev.org/openstack/heat-dashboard.git
+git clone --mirror https://opendev.org/openstack/heat.git
+git clone --mirror https://opendev.org/openstack/heat-specs.git
+git clone --mirror https://opendev.org/openstack/heat-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/heat-templates.git
+git clone --mirror https://opendev.org/openstack/heat-translator.git
+git clone --mirror https://opendev.org/openstack/horizon.git
+git clone --mirror https://opendev.org/openstack/i18n.git
+git clone --mirror https://opendev.org/openstack/i18n-specs.git
+git clone --mirror https://opendev.org/openstack/infra-manual.git
+git clone --mirror https://opendev.org/openstack/instack-undercloud.git
+git clone --mirror https://opendev.org/openstack/ironic.git
+git clone --mirror https://opendev.org/openstack/ironic-inspector.git
+git clone --mirror https://opendev.org/openstack/ironic-inspector-specs.git
+git clone --mirror https://opendev.org/openstack/ironic-lib.git
+git clone --mirror https://opendev.org/openstack/ironic-prometheus-exporter.git
+git clone --mirror https://opendev.org/openstack/ironic-python-agent-builder.git
+git clone --mirror https://opendev.org/openstack/ironic-python-agent.git
+git clone --mirror https://opendev.org/openstack/ironic-specs.git
+git clone --mirror https://opendev.org/openstack/ironic-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/ironic-ui.git
+git clone --mirror https://opendev.org/openstack/js-openstack-lib.git
+git clone --mirror https://opendev.org/openstack/karbor-dashboard.git
+git clone --mirror https://opendev.org/openstack/karbor.git
+git clone --mirror https://opendev.org/openstack/karma-subunit-reporter.git
+git clone --mirror https://opendev.org/openstack/kayobe-config-dev.git
+git clone --mirror https://opendev.org/openstack/kayobe-config.git
+git clone --mirror https://opendev.org/openstack/kayobe.git
+git clone --mirror https://opendev.org/openstack/keystoneauth.git
+git clone --mirror https://opendev.org/openstack/keystone.git
+git clone --mirror https://opendev.org/openstack/keystonemiddleware.git
+git clone --mirror https://opendev.org/openstack/keystone-specs.git
+git clone --mirror https://opendev.org/openstack/keystone-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/kolla-ansible.git
+git clone --mirror https://opendev.org/openstack/kolla-cli.git
+git clone --mirror https://opendev.org/openstack/kolla.git
+git clone --mirror https://opendev.org/openstack/kuryr.git
+git clone --mirror https://opendev.org/openstack/kuryr-kubernetes.git
+git clone --mirror https://opendev.org/openstack/kuryr-libnetwork.git
+git clone --mirror https://opendev.org/openstack/kuryr-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/ldappool.git
+git clone --mirror https://opendev.org/openstack/liberasurecode.git
+git clone --mirror https://opendev.org/openstack/loci.git
+git clone --mirror https://opendev.org/openstack/logstash-filters.git
+git clone --mirror https://opendev.org/openstack/magnum.git
+git clone --mirror https://opendev.org/openstack/magnum-specs.git
+git clone --mirror https://opendev.org/openstack/magnum-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/magnum-ui.git
+git clone --mirror https://opendev.org/openstack/manila.git
+git clone --mirror https://opendev.org/openstack/manila-image-elements.git
+git clone --mirror https://opendev.org/openstack/manila-specs.git
+git clone --mirror https://opendev.org/openstack/manila-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/manila-test-image.git
+git clone --mirror https://opendev.org/openstack/manila-ui.git
+git clone --mirror https://opendev.org/openstack/masakari-dashboard.git
+git clone --mirror https://opendev.org/openstack/masakari.git
+git clone --mirror https://opendev.org/openstack/masakari-monitors.git
+git clone --mirror https://opendev.org/openstack/masakari-specs.git
+git clone --mirror https://opendev.org/openstack/metalsmith.git
+git clone --mirror https://opendev.org/openstack/microversion-parse
+git clone --mirror https://opendev.org/openstack/mistral-dashboard.git
+git clone --mirror https://opendev.org/openstack/mistral-extra.git
+git clone --mirror https://opendev.org/openstack/mistral.git
+git clone --mirror https://opendev.org/openstack/mistral-lib.git
+git clone --mirror https://opendev.org/openstack/mistral-specs.git
+git clone --mirror https://opendev.org/openstack/mistral-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/molteniron.git
+git clone --mirror https://opendev.org/openstack/monasca-agent.git
+git clone --mirror https://opendev.org/openstack/monasca-analytics.git
+git clone --mirror https://opendev.org/openstack/monasca-api.git
+git clone --mirror https://opendev.org/openstack/monasca-ceilometer.git
+git clone --mirror https://opendev.org/openstack/monasca-common.git
+git clone --mirror https://opendev.org/openstack/monasca-events-api.git
+git clone --mirror https://opendev.org/openstack/monasca-grafana-datasource.git
+git clone --mirror https://opendev.org/openstack/monasca-kibana-plugin.git
+git clone --mirror https://opendev.org/openstack/monasca-log-api.git
+git clone --mirror https://opendev.org/openstack/monasca-notification.git
+git clone --mirror https://opendev.org/openstack/monasca-persister.git
+git clone --mirror https://opendev.org/openstack/monasca-specs.git
+git clone --mirror https://opendev.org/openstack/monasca-statsd.git
+git clone --mirror https://opendev.org/openstack/monasca-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/monasca-thresh.git
+git clone --mirror https://opendev.org/openstack/monasca-transform.git
+git clone --mirror https://opendev.org/openstack/monasca-ui.git
+git clone --mirror https://opendev.org/openstack/mox3.git
+git clone --mirror https://opendev.org/openstack/murano-agent.git
+git clone --mirror https://opendev.org/openstack/murano-apps.git
+git clone --mirror https://opendev.org/openstack/murano-dashboard.git
+git clone --mirror https://opendev.org/openstack/murano.git
+git clone --mirror https://opendev.org/openstack/murano-pkg-check.git
+git clone --mirror https://opendev.org/openstack/murano-specs.git
+git clone --mirror https://opendev.org/openstack/murano-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/networking-ansible
+git clone --mirror https://opendev.org/openstack/networking-bagpipe.git
+git clone --mirror https://opendev.org/openstack/networking-baremetal.git
+git clone --mirror https://opendev.org/openstack/networking-bgpvpn.git
+git clone --mirror https://opendev.org/openstack/networking-generic-switch.git
+git clone --mirror https://opendev.org/openstack/networking-hyperv.git
+git clone --mirror https://opendev.org/openstack/networking-l2gw
+git clone --mirror https://opendev.org/openstack/networking-midonet.git
+git clone --mirror https://opendev.org/openstack/networking-odl.git
+git clone --mirror https://opendev.org/openstack/networking-ovn.git
+git clone --mirror https://opendev.org/openstack/networking-sfc.git
+git clone --mirror https://opendev.org/openstack/neutron-dynamic-routing.git
+git clone --mirror https://opendev.org/openstack/neutron-fwaas-dashboard.git
+git clone --mirror https://opendev.org/openstack/neutron-fwaas.git
+git clone --mirror https://opendev.org/openstack/neutron.git
+git clone --mirror https://opendev.org/openstack/neutron-lbaas-dashboard.git
+git clone --mirror https://opendev.org/openstack/neutron-lbaas.git
+git clone --mirror https://opendev.org/openstack/neutron-lib.git
+git clone --mirror https://opendev.org/openstack/neutron-specs.git
+git clone --mirror https://opendev.org/openstack/neutron-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/neutron-vpnaas-dashboard.git
+git clone --mirror https://opendev.org/openstack/neutron-vpnaas.git
+git clone --mirror https://opendev.org/openstack/nose-html-output.git
+git clone --mirror https://opendev.org/openstack/nova.git
+git clone --mirror https://opendev.org/openstack/novajoin
+git clone --mirror https://opendev.org/openstack/nova-mksproxy
+git clone --mirror https://opendev.org/openstack/nova-specs.git
+git clone --mirror https://opendev.org/openstack/octavia-dashboard.git
+git clone --mirror https://opendev.org/openstack/octavia.git
+git clone --mirror https://opendev.org/openstack/octavia-lib.git
+git clone --mirror https://opendev.org/openstack/octavia-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-apt_package_pinning.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-ceph_client.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-galera_client.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-galera_server.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-haproxy_server.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-lxc_container_create.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-lxc_hosts.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-memcached_server.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-nspawn_container_create.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-nspawn_hosts.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-openstack_hosts.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-openstack_openrc.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-ops.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_aodh.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_barbican.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_blazar.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_ceilometer.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_cinder.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_cloudkitty.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_congress.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_designate.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_freezer.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_glance.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_gnocchi.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_heat.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_horizon.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_ironic.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_karbor.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_keystone.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_magnum.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_manila.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_masakari.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_mistral.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_murano.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_neutron.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_nova.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_octavia.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_panko.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_placement.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_rally.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_sahara.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_swift.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_tacker.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_tempest.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_trove.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-os_zun.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-pip_lock_down.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-plugins.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-rabbitmq_server.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-repo_server.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-rsyslog_client.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-rsyslog_server.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-security.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-specs.git
+git clone --mirror https://opendev.org/openstack/openstack-ansible-tests.git
+git clone --mirror https://opendev.org/openstack/openstack-chef.git
+git clone --mirror https://opendev.org/openstack/openstack-chef-repo.git
+git clone --mirror https://opendev.org/openstack/openstack-chef-specs.git
+git clone --mirror https://opendev.org/openstack/openstackclient.git
+git clone --mirror https://opendev.org/openstack/openstackdocstheme.git
+git clone --mirror https://opendev.org/openstack/openstack-doc-tools.git
+git clone --mirror https://opendev.org/openstack/openstack-health.git
+git clone --mirror https://opendev.org/openstack/openstack-helm-addons.git
+git clone --mirror https://opendev.org/openstack/openstack-helm-docs.git
+git clone --mirror https://opendev.org/openstack/openstack-helm.git
+git clone --mirror https://opendev.org/openstack/openstack-helm-images.git
+git clone --mirror https://opendev.org/openstack/openstack-helm-infra.git
+git clone --mirror https://opendev.org/openstack/openstack-nose.git
+git clone --mirror https://opendev.org/openstack/openstack-planet.git
+git clone --mirror https://opendev.org/openstack/openstacksdk.git
+git clone --mirror https://opendev.org/openstack/openstack-tempest-skiplist
+git clone --mirror https://opendev.org/openstack/openstack-virtual-baremetal.git
+git clone --mirror https://opendev.org/openstack/openstack-zuul-jobs.git
+git clone --mirror https://opendev.org/openstack/openstack-zuul-roles.git
+git clone --mirror https://opendev.org/openstack/os-api-ref.git
+git clone --mirror https://opendev.org/openstack/os-apply-config.git
+git clone --mirror https://opendev.org/openstack/os-brick.git
+git clone --mirror https://opendev.org/openstack/osc-lib.git
+git clone --mirror https://opendev.org/openstack/os-client-config.git
+git clone --mirror https://opendev.org/openstack/os-collect-config.git
+git clone --mirror https://opendev.org/openstack/osc-placement.git
+git clone --mirror https://opendev.org/openstack/os-ken.git
+git clone --mirror https://opendev.org/openstack/oslo.cache.git
+git clone --mirror https://opendev.org/openstack/oslo.concurrency.git
+git clone --mirror https://opendev.org/openstack/oslo.config.git
+git clone --mirror https://opendev.org/openstack/oslo.context.git
+git clone --mirror https://opendev.org/openstack/oslo-cookiecutter.git
+git clone --mirror https://opendev.org/openstack/oslo.db.git
+git clone --mirror https://opendev.org/openstack/os-loganalyze.git
+git clone --mirror https://opendev.org/openstack/oslo.i18n.git
+git clone --mirror https://opendev.org/openstack/oslo.limit.git
+git clone --mirror https://opendev.org/openstack/oslo.log.git
+git clone --mirror https://opendev.org/openstack/oslo.messaging.git
+git clone --mirror https://opendev.org/openstack/oslo.middleware.git
+git clone --mirror https://opendev.org/openstack/oslo.policy.git
+git clone --mirror https://opendev.org/openstack/oslo.privsep.git
+git clone --mirror https://opendev.org/openstack/oslo.reports.git
+git clone --mirror https://opendev.org/openstack/oslo.rootwrap.git
+git clone --mirror https://opendev.org/openstack/oslo.serialization.git
+git clone --mirror https://opendev.org/openstack/oslo.service.git
+git clone --mirror https://opendev.org/openstack/oslo-specs.git
+git clone --mirror https://opendev.org/openstack/oslotest.git
+git clone --mirror https://opendev.org/openstack/oslo.tools.git
+git clone --mirror https://opendev.org/openstack/oslo.upgradecheck.git
+git clone --mirror https://opendev.org/openstack/oslo.utils.git
+git clone --mirror https://opendev.org/openstack/oslo.versionedobjects.git
+git clone --mirror https://opendev.org/openstack/oslo.vmware.git
+git clone --mirror https://opendev.org/openstack/os-net-config.git
+git clone --mirror https://opendev.org/openstack/os-performance-tools.git
+git clone --mirror https://opendev.org/openstack/osprofiler.git
+git clone --mirror https://opendev.org/openstack/os-refresh-config.git
+git clone --mirror https://opendev.org/openstack/os-resource-classes.git
+git clone --mirror https://opendev.org/openstack/os-service-types.git
+git clone --mirror https://opendev.org/openstack/os-testr.git
+git clone --mirror https://opendev.org/openstack/os-traits.git
+git clone --mirror https://opendev.org/openstack/os-vif.git
+git clone --mirror https://opendev.org/openstack/os-win.git
+git clone --mirror https://opendev.org/openstack/oswin-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/ovn-octavia-provider
+git clone --mirror https://opendev.org/openstack/ovsdbapp.git
+git clone --mirror https://opendev.org/openstack/panko.git
+git clone --mirror https://opendev.org/openstack/patrole.git
+git clone --mirror https://opendev.org/openstack/paunch.git
+git clone --mirror https://opendev.org/openstack/pbr.git
+git clone --mirror https://opendev.org/openstack/performance-docs.git
+git clone --mirror https://opendev.org/openstack/placement.git
+git clone --mirror https://opendev.org/openstack/project-config.git
+git clone --mirror https://opendev.org/openstack/ptgbot.git
+git clone --mirror https://opendev.org/openstack/puppet-aodh.git
+git clone --mirror https://opendev.org/openstack/puppet-barbican.git
+git clone --mirror https://opendev.org/openstack/puppet-ceilometer.git
+git clone --mirror https://opendev.org/openstack/puppet-ceph.git
+git clone --mirror https://opendev.org/openstack/puppet-cinder.git
+git clone --mirror https://opendev.org/openstack/puppet-cloudkitty.git
+git clone --mirror https://opendev.org/openstack/puppet-congress.git
+git clone --mirror https://opendev.org/openstack/puppet-designate.git
+git clone --mirror https://opendev.org/openstack/puppet-ec2api.git
+git clone --mirror https://opendev.org/openstack/puppet-freezer.git
+git clone --mirror https://opendev.org/openstack/puppet-glance.git
+git clone --mirror https://opendev.org/openstack/puppet-glare.git
+git clone --mirror https://opendev.org/openstack/puppet-gnocchi.git
+git clone --mirror https://opendev.org/openstack/puppet-heat.git
+git clone --mirror https://opendev.org/openstack/puppet-horizon.git
+git clone --mirror https://opendev.org/openstack/puppet-ironic.git
+git clone --mirror https://opendev.org/openstack/puppet-keystone.git
+git clone --mirror https://opendev.org/openstack/puppet-magnum.git
+git clone --mirror https://opendev.org/openstack/puppet-manila.git
+git clone --mirror https://opendev.org/openstack/puppet-mistral.git
+git clone --mirror https://opendev.org/openstack/puppet-monasca.git
+git clone --mirror https://opendev.org/openstack/puppet-murano.git
+git clone --mirror https://opendev.org/openstack/puppet-neutron.git
+git clone --mirror https://opendev.org/openstack/puppet-nova.git
+git clone --mirror https://opendev.org/openstack/puppet-octavia.git
+git clone --mirror https://opendev.org/openstack/puppet-openstack-cookiecutter.git
+git clone --mirror https://opendev.org/openstack/puppet-openstack_extras.git
+git clone --mirror https://opendev.org/openstack/puppet-openstack-guide.git
+git clone --mirror https://opendev.org/openstack/puppet-openstack-integration.git
+git clone --mirror https://opendev.org/openstack/puppet-openstacklib.git
+git clone --mirror https://opendev.org/openstack/puppet-openstack_spec_helper.git
+git clone --mirror https://opendev.org/openstack/puppet-openstack-specs.git
+git clone --mirror https://opendev.org/openstack/puppet-oslo.git
+git clone --mirror https://opendev.org/openstack/puppet-ovn.git
+git clone --mirror https://opendev.org/openstack/puppet-pacemaker.git
+git clone --mirror https://opendev.org/openstack/puppet-panko.git
+git clone --mirror https://opendev.org/openstack/puppet-placement.git
+git clone --mirror https://opendev.org/openstack/puppet-qdr.git
+git clone --mirror https://opendev.org/openstack/puppet-rally.git
+git clone --mirror https://opendev.org/openstack/puppet-sahara.git
+git clone --mirror https://opendev.org/openstack/puppet-senlin.git
+git clone --mirror https://opendev.org/openstack/puppet-swift.git
+git clone --mirror https://opendev.org/openstack/puppet-tacker.git
+git clone --mirror https://opendev.org/openstack/puppet-tempest.git
+git clone --mirror https://opendev.org/openstack/puppet-tripleo.git
+git clone --mirror https://opendev.org/openstack/puppet-trove.git
+git clone --mirror https://opendev.org/openstack/puppet-vitrage.git
+git clone --mirror https://opendev.org/openstack/puppet-vswitch.git
+git clone --mirror https://opendev.org/openstack/puppet-watcher.git
+git clone --mirror https://opendev.org/openstack/puppet-zaqar.git
+git clone --mirror https://opendev.org/openstack/pycadf.git
+git clone --mirror https://opendev.org/openstack/pyeclib.git
+git clone --mirror https://opendev.org/openstack/pymod2pkg.git
+git clone --mirror https://opendev.org/openstack/python-adjutantclient.git
+git clone --mirror https://opendev.org/openstack/python-aodhclient.git
+git clone --mirror https://opendev.org/openstack/python-barbicanclient.git
+git clone --mirror https://opendev.org/openstack/python-blazarclient.git
+git clone --mirror https://opendev.org/openstack/python-brick-cinderclient-ext.git
+git clone --mirror https://opendev.org/openstack/python-cinderclient.git
+git clone --mirror https://opendev.org/openstack/python-cloudkittyclient.git
+git clone --mirror https://opendev.org/openstack/python-congressclient.git
+git clone --mirror https://opendev.org/openstack/python-cyborgclient.git
+git clone --mirror https://opendev.org/openstack/python-designateclient.git
+git clone --mirror https://opendev.org/openstack/python-freezerclient.git
+git clone --mirror https://opendev.org/openstack/python-glanceclient.git
+git clone --mirror https://opendev.org/openstack/python-heatclient.git
+git clone --mirror https://opendev.org/openstack/python-ironicclient.git
+git clone --mirror https://opendev.org/openstack/python-ironic-inspector-client.git
+git clone --mirror https://opendev.org/openstack/python-karborclient.git
+git clone --mirror https://opendev.org/openstack/python-keystoneclient.git
+git clone --mirror https://opendev.org/openstack/python-magnumclient.git
+git clone --mirror https://opendev.org/openstack/python-manilaclient.git
+git clone --mirror https://opendev.org/openstack/python-masakariclient.git
+git clone --mirror https://opendev.org/openstack/python-mistralclient.git
+git clone --mirror https://opendev.org/openstack/python-monascaclient.git
+git clone --mirror https://opendev.org/openstack/python-muranoclient.git
+git clone --mirror https://opendev.org/openstack/python-neutronclient.git
+git clone --mirror https://opendev.org/openstack/python-novaclient.git
+git clone --mirror https://opendev.org/openstack/python-octaviaclient.git
+git clone --mirror https://opendev.org/openstack/python-openstackclient.git
+git clone --mirror https://opendev.org/openstack/python-pankoclient.git
+git clone --mirror https://opendev.org/openstack/python-qinlingclient.git
+git clone --mirror https://opendev.org/openstack/python-saharaclient.git
+git clone --mirror https://opendev.org/openstack/python-searchlightclient.git
+git clone --mirror https://opendev.org/openstack/python-senlinclient.git
+git clone --mirror https://opendev.org/openstack/python-solumclient.git
+git clone --mirror https://opendev.org/openstack/python-swiftclient.git
+git clone --mirror https://opendev.org/openstack/python-tackerclient.git
+git clone --mirror https://opendev.org/openstack/python-tempestconf
+git clone --mirror https://opendev.org/openstack/python-tricircleclient.git
+git clone --mirror https://opendev.org/openstack/python-tripleoclient.git
+git clone --mirror https://opendev.org/openstack/python-troveclient.git
+git clone --mirror https://opendev.org/openstack/python-vitrageclient.git
+git clone --mirror https://opendev.org/openstack/python-watcherclient.git
+git clone --mirror https://opendev.org/openstack/python-zaqarclient.git
+git clone --mirror https://opendev.org/openstack/python-zunclient.git
+git clone --mirror https://opendev.org/openstack/qa-specs.git
+git clone --mirror https://opendev.org/openstack/qinling-dashboard.git
+git clone --mirror https://opendev.org/openstack/qinling.git
+git clone --mirror https://opendev.org/openstack/rally.git
+git clone --mirror https://opendev.org/openstack/rally-openstack.git
+git clone --mirror https://opendev.org/openstack/releases.git
+git clone --mirror https://opendev.org/openstack/release-test.git
+git clone --mirror https://opendev.org/openstack/renderspec.git
+git clone --mirror https://opendev.org/openstack/reno.git
+git clone --mirror https://opendev.org/openstack/requestsexceptions.git
+git clone --mirror https://opendev.org/openstack/requirements.git
+git clone --mirror https://opendev.org/openstack/reviewday.git
+git clone --mirror https://opendev.org/openstack/reviewstats.git
+git clone --mirror https://opendev.org/openstack/rpm-packaging.git
+git clone --mirror https://opendev.org/openstack/rpm-packaging-tools.git
+git clone --mirror https://opendev.org/openstack/sahara-dashboard.git
+git clone --mirror https://opendev.org/openstack/sahara-extra.git
+git clone --mirror https://opendev.org/openstack/sahara.git
+git clone --mirror https://opendev.org/openstack/sahara-image-elements.git
+git clone --mirror https://opendev.org/openstack/sahara-plugin-ambari.git
+git clone --mirror https://opendev.org/openstack/sahara-plugin-cdh.git
+git clone --mirror https://opendev.org/openstack/sahara-plugin-mapr.git
+git clone --mirror https://opendev.org/openstack/sahara-plugin-spark.git
+git clone --mirror https://opendev.org/openstack/sahara-plugin-storm.git
+git clone --mirror https://opendev.org/openstack/sahara-plugin-vanilla.git
+git clone --mirror https://opendev.org/openstack/sahara-specs.git
+git clone --mirror https://opendev.org/openstack/sahara-tests.git
+git clone --mirror https://opendev.org/openstack/searchlight.git
+git clone --mirror https://opendev.org/openstack/searchlight-specs.git
+git clone --mirror https://opendev.org/openstack/searchlight-ui.git
+git clone --mirror https://opendev.org/openstack/senlin-dashboard.git
+git clone --mirror https://opendev.org/openstack/senlin.git
+git clone --mirror https://opendev.org/openstack/senlin-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/shade.git
+git clone --mirror https://opendev.org/openstack/solum-dashboard.git
+git clone --mirror https://opendev.org/openstack/solum.git
+git clone --mirror https://opendev.org/openstack/solum-specs.git
+git clone --mirror https://opendev.org/openstack/solum-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/specs-cookiecutter.git
+git clone --mirror https://opendev.org/openstack/sphinx-feature-classification.git
+git clone --mirror https://opendev.org/openstack/stackviz.git
+git clone --mirror https://opendev.org/openstack/stevedore.git
+git clone --mirror https://opendev.org/openstack/storlets.git
+git clone --mirror https://opendev.org/openstack/sushy-cli
+git clone --mirror https://opendev.org/openstack/sushy.git
+git clone --mirror https://opendev.org/openstack/sushy-tools.git
+git clone --mirror https://opendev.org/openstack/swift-bench.git
+git clone --mirror https://opendev.org/openstack/swift.git
+git clone --mirror https://opendev.org/openstack/swift-specs.git
+git clone --mirror https://opendev.org/openstack/tacker.git
+git clone --mirror https://opendev.org/openstack/tacker-horizon.git
+git clone --mirror https://opendev.org/openstack/tacker-specs.git
+git clone --mirror https://opendev.org/openstack/taskflow.git
+git clone --mirror https://opendev.org/openstack/telemetry-specs.git
+git clone --mirror https://opendev.org/openstack/telemetry-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/tempest.git
+git clone --mirror https://opendev.org/openstack/tempest-horizon.git
+git clone --mirror https://opendev.org/openstack/tempest-lib.git
+git clone --mirror https://opendev.org/openstack/tempest-plugin-cookiecutter.git
+git clone --mirror https://opendev.org/openstack/tempest-stress.git
+git clone --mirror https://opendev.org/openstack/tenks.git
+git clone --mirror https://opendev.org/openstack/tooz.git
+git clone --mirror https://opendev.org/openstack/tosca-parser.git
+git clone --mirror https://opendev.org/openstack/tricircle.git
+git clone --mirror https://opendev.org/openstack/tripleo-ansible.git
+git clone --mirror https://opendev.org/openstack/tripleo-ci.git
+git clone --mirror https://opendev.org/openstack/tripleo-common.git
+git clone --mirror https://opendev.org/openstack/tripleo-common-tempest-plugin
+git clone --mirror https://opendev.org/openstack/tripleo-common-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/tripleo-docs.git
+git clone --mirror https://opendev.org/openstack/tripleo-ha-utils.git
+git clone --mirror https://opendev.org/openstack/tripleo-heat-templates.git
+git clone --mirror https://opendev.org/openstack/tripleo-image-elements.git
+git clone --mirror https://opendev.org/openstack/tripleo-ipsec.git
+git clone --mirror https://opendev.org/openstack/tripleo-operator-ansible
+git clone --mirror https://opendev.org/openstack/tripleo-puppet-elements.git
+git clone --mirror https://opendev.org/openstack/tripleo-quickstart-extras.git
+git clone --mirror https://opendev.org/openstack/tripleo-quickstart.git
+git clone --mirror https://opendev.org/openstack/tripleo-repos.git
+git clone --mirror https://opendev.org/openstack/tripleo-specs.git
+git clone --mirror https://opendev.org/openstack/tripleo-upgrade.git
+git clone --mirror https://opendev.org/openstack/tripleo-validations.git
+git clone --mirror https://opendev.org/openstack/trove-dashboard.git
+git clone --mirror https://opendev.org/openstack/trove.git
+git clone --mirror https://opendev.org/openstack/trove-specs.git
+git clone --mirror https://opendev.org/openstack/trove-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/ui-cookiecutter.git
+git clone --mirror https://opendev.org/openstack/validations-common
+git clone --mirror https://opendev.org/openstack/validations-libs
+git clone --mirror https://opendev.org/openstack/virtualbmc.git
+git clone --mirror https://opendev.org/openstack/vitrage-dashboard.git
+git clone --mirror https://opendev.org/openstack/vitrage.git
+git clone --mirror https://opendev.org/openstack/vitrage-specs.git
+git clone --mirror https://opendev.org/openstack/vitrage-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/vmtp
+git clone --mirror https://opendev.org/openstack/vmware-nsx
+git clone --mirror https://opendev.org/openstack/vmware-nsxlib
+git clone --mirror https://opendev.org/openstack/watcher-dashboard.git
+git clone --mirror https://opendev.org/openstack/watcher.git
+git clone --mirror https://opendev.org/openstack/watcher-specs.git
+git clone --mirror https://opendev.org/openstack/watcher-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/whereto.git
+git clone --mirror https://opendev.org/openstack/xstatic-angular-bootstrap.git
+git clone --mirror https://opendev.org/openstack/xstatic-angular-gettext.git
+git clone --mirror https://opendev.org/openstack/xstatic-angular.git
+git clone --mirror https://opendev.org/openstack/xstatic-angular-lrdragndrop.git
+git clone --mirror https://opendev.org/openstack/xstatic-angular-material.git
+git clone --mirror https://opendev.org/openstack/xstatic-angular-notify.git
+git clone --mirror https://opendev.org/openstack/xstatic-angular-smart-table.git
+git clone --mirror https://opendev.org/openstack/xstatic-angular-uuid.git
+git clone --mirror https://opendev.org/openstack/xstatic-angular-vis.git
+git clone --mirror https://opendev.org/openstack/xstatic-bootstrap-datepicker.git
+git clone --mirror https://opendev.org/openstack/xstatic-bootstrap-scss.git
+git clone --mirror https://opendev.org/openstack/xstatic-bootswatch.git
+git clone --mirror https://opendev.org/openstack/xstatic-d3.git
+git clone --mirror https://opendev.org/openstack/xstatic-dagre
+git clone --mirror https://opendev.org/openstack/xstatic-dagre-d3
+git clone --mirror https://opendev.org/openstack/xstatic-filesaver.git
+git clone --mirror https://opendev.org/openstack/xstatic-font-awesome.git
+git clone --mirror https://opendev.org/openstack/xstatic-graphlib
+git clone --mirror https://opendev.org/openstack/xstatic-hogan.git
+git clone --mirror https://opendev.org/openstack/xstatic-jasmine.git
+git clone --mirror https://opendev.org/openstack/xstatic-jquery-migrate.git
+git clone --mirror https://opendev.org/openstack/xstatic-jquery.quicksearch.git
+git clone --mirror https://opendev.org/openstack/xstatic-jquery.tablesorter.git
+git clone --mirror https://opendev.org/openstack/xstatic-jsencrypt.git
+git clone --mirror https://opendev.org/openstack/xstatic-json2yaml.git
+git clone --mirror https://opendev.org/openstack/xstatic-js-yaml.git
+git clone --mirror https://opendev.org/openstack/xstatic-lodash
+git clone --mirror https://opendev.org/openstack/xstatic-magic-search.git
+git clone --mirror https://opendev.org/openstack/xstatic-mdi.git
+git clone --mirror https://opendev.org/openstack/xstatic-moment
+git clone --mirror https://opendev.org/openstack/xstatic-moment-timezone
+git clone --mirror https://opendev.org/openstack/xstatic-rickshaw.git
+git clone --mirror https://opendev.org/openstack/xstatic-roboto-fontface.git
+git clone --mirror https://opendev.org/openstack/xstatic-spin.git
+git clone --mirror https://opendev.org/openstack/yaql.git
+git clone --mirror https://opendev.org/openstack/zaqar.git
+git clone --mirror https://opendev.org/openstack/zaqar-specs.git
+git clone --mirror https://opendev.org/openstack/zaqar-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/zaqar-ui.git
+git clone --mirror https://opendev.org/openstack/zun.git
+git clone --mirror https://opendev.org/openstack/zun-tempest-plugin.git
+git clone --mirror https://opendev.org/openstack/zun-ui.git
