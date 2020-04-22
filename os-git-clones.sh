@@ -405,6 +405,7 @@ git clone --mirror https://opendev.org/openstack/networking-baremetal.git
 git clone --mirror https://opendev.org/openstack/networking-bgpvpn.git
 git clone --mirror https://opendev.org/openstack/networking-generic-switch.git
 git clone --mirror https://opendev.org/openstack/networking-hyperv.git
+git clone --mirror https://opendev.org/openstack/networking-infoblox.git
 git clone --mirror https://opendev.org/openstack/networking-l2gw
 git clone --mirror https://opendev.org/openstack/networking-midonet.git
 git clone --mirror https://opendev.org/openstack/networking-odl.git
